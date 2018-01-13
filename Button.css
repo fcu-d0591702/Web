@@ -1,0 +1,634 @@
+
+/*Button-A*/		
+		.Button_A-Style{
+			top: 84%;
+			left: 47%;
+			position: absolute;
+		}
+		
+		.Button_A01{
+			border-color: white;
+			border-style: solid;
+			border-width:1px;
+			
+			width:98px;
+			height:38px;
+					
+			top: 50px;
+			left: 50px;
+			position: absolute;
+			z-index: 3;
+		} 
+		
+		.Button_A02{		
+			width:100px;
+			height:40px;
+			
+			background-color:#000;
+			opacity:0.1;
+			
+			transition:	opacity 0.5s, 
+						background-color 1s;
+			
+			top: 50px;
+			left: 50px;
+			position: absolute;
+			z-index: 4;
+		}  
+		
+		.Button_A03{
+			text-align:center;
+			line-height: 100px;
+			
+			width:100px;
+			height:40px;
+			
+			top: 20px;
+			left: 50px;
+			position: absolute;
+			z-index: 5;
+			
+			cursor:pointer;	
+		} 
+		
+/*Button-B*/		
+		
+		.Button_B-Style{
+			width:180px;
+			height:110px;
+			
+			top:0;
+			left:0;
+			position:absolute;
+			
+		}
+		
+		.Button-B01{
+			width:40px;
+			height:40px;
+			
+			top:15%;
+			left:40%;
+			position:absolute;
+			
+			z-index:3;
+		}/*Logo*/
+		
+		.Button-B02{			
+			width:180px;
+			height:110px;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:4;
+			
+			cursor:pointer;	
+		}/*button-Click*/
+		
+/*Button-C_Logo*/	
+	
+		.Button-C-Style{
+			width: 300px;
+			height: 70px;
+
+		}/* 框架&座標*/		
+		
+		.Button-C01{
+			width: 300px;
+			height: 70px;
+			
+			top:15px;
+			left:-130px;
+			position:absolute;
+			
+			z-index: 4;
+		}/*Logo-img*/
+		
+		.Button-C02{
+			width: 300px;
+			height: 70px;
+			
+			top:22px;
+			left:10px;
+			position:absolute;
+			
+			z-index: 4;
+		}/*標題CN*/
+		
+		.Button-C03{
+			width: 300px;
+			height: 70px;
+			
+			top:44px;
+			left:18px;
+			position:absolute;
+			
+			z-index: 4;
+		}/*標題EN*/
+		
+		.Button-C04{
+			width: 300px;
+			height: 70px;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 13;
+			
+			cursor:pointer;	
+		}/*button-Click*/
+		
+/*Box-Top-------------------------------------------*/
+	/*網站地圖*/
+		.Button-J01{
+			top:17px;
+			left:130px;
+			position:absolute;
+			
+			z-index: 15;
+		}/*圖片*/
+		
+		.Button-J02{
+			width: 160px;
+			height: 70px;
+			
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 15;
+			
+			cursor:pointer;	
+		}/*字*/	
+		
+/*Box-mainContent_home-2--------------------------------------------------------*/	
+
+		.Button-D-Style_Home-2{
+			
+			margin-left:100px;
+			
+			top:90px;
+			left:50%;
+			position:absolute;	
+		}
+		
+		.Button-D-Style_Home-3{
+			
+			margin-left:-760px;
+			
+			top:60px;
+			left:50%;
+			position:absolute;		
+		}
+	
+		.Button-D01{
+			border-color: rgb(236,236,236);
+			border-style: solid;
+			border-width:2px;
+			
+			width: 660px;
+			height:560px;
+			background-color: white;
+			
+			transition:	border-color 0.2s;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:3;
+			
+		}/*E01底框架_1*/
+		
+		.Button-D02{
+			width: 640px;
+			height:306px;
+			background-color:gray;
+			
+			top:80px;
+			left:10px;
+			position:absolute;
+
+			z-index:4;
+
+		}/*相片框架_1-img*/
+		
+		.Button-D03{
+			width:40px;
+			height:40px;
+			background-color:;
+			
+			top:210px;
+			left:310px;
+			position:absolute;
+			
+			opacity:0;
+			
+			transition:	opacity 0.2s;
+			
+			z-index:5;
+			
+		}/*Logo-img*/
+		
+		.Button-D04{
+			width:131px;
+			height:30px;
+			background-color:red;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:3;
+		}/*title-img*/
+		
+		.Button-D05{
+			width:131px;
+			height:30px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:4;
+		}/*title-word*/
+		
+		.Button-D06{
+			width:131px;
+			height:30px;
+			background-color:red;
+			
+			top:25px;
+			left:265px;
+			position:absolute;
+			
+			z-index:5;
+		}/*title-img & word*/
+		
+		
+		.Button-D07{
+			width:640px;
+			height:120px;
+			background-color:;
+			
+			border-color: rgb(236,236,236);
+			border-style: solid;
+			border-width: 1px;
+			
+			top:400px;
+			left:10px;
+			position:absolute;
+			
+			z-index:5;
+			
+		}/*Contents*/
+		
+		.Button-D08{
+			width:500px;
+			height:50px;
+			background-color:;
+			
+			top:510px;
+			left:13px;
+			position:absolute;
+			
+			z-index:5;
+			
+		}/*Date*/
+		
+		.Button-D09{
+			width: 640px;
+			height:306px;
+			background-color:;
+			
+			top:80px;
+			left:10px;
+			position:absolute;
+
+			z-index:6;
+			
+			cursor:pointer;
+		}/*超鏈結框架*/
+		
+/*Box_News-home1--------------------------------------------------------*/		
+		
+		.Button-E_Style{
+			
+			width:785px;
+			height:120px;
+			background-color:;
+		}/*Style*/
+		
+		.Button-E01{
+			width:80px;
+			height:80px;
+			background-color: rgb(142,183,89);
+			
+			border-radius:10px;
+
+			left:10px;
+			top:30px;
+			position:absolute;
+			
+			z-index:5;
+		}/*日期盒子*/
+		
+		.Button-E02{
+			width:765px;
+			height:10px;
+			background-color: rgb(142,183,89);
+			
+			border-radius:10px;
+			
+			left:10px;
+			top:100px;
+			position:absolute;
+		}/*底線*/
+		
+		.Button-E03{
+			width:660px;
+			height:65px;
+			background-color:;
+	
+			left:110px;
+			top:35px;
+			position:absolute;
+		}/*內容*/
+		
+		.Button-E04{
+			width:683px;
+			height:65px;
+			background-color:rgb(142,183,89);
+	
+			border-top-right-radius:10px;
+	
+			left:87px;
+			top:35px;
+			position:absolute;
+			
+			opacity:0;
+		
+			transition:	opacity 0.5s, 
+						background-color 0.2s;
+			
+			z-index:;
+		}/*動畫內容*/
+		
+		.Button-E05{
+			width:770px;
+			height:80px;
+			background-color:;
+			
+			border-radius:10px;
+			
+			left:7px;
+			top:30px;
+			position:absolute;
+			
+			cursor:pointer;
+			
+			z-index:6;
+		}/*動畫遮罩*/
+		
+		.Button-E06{
+			left:750px;
+			top:10px;
+			position:absolute;
+			
+			opacity:0;
+		
+			transition:	opacity 0.5s, 
+			
+			z-index:7;
+		}/*動畫樹葉*/
+		
+/*Box_EthniceGroup-home1--------------------------------------------------------*/
+		.Button-F_Style{
+			
+			width:200px;
+			height:60px;
+			background-color:;
+
+		}/*Style*/
+		
+		.Button-F01{
+			width:170px;
+			height:50px;
+			background-color:rgb(142,183,89);
+			
+			border-top-right-radius:20px;
+			border-top-left-radius:8px;
+			border-bottom-right-radius:8px;
+			border-bottom-left-radius:8px;
+		
+			transition:	background-color 0.2s;
+
+			left:15px;
+			top:5px;
+			position:absolute;
+
+			z-index:5;
+		}/*框架*/
+		
+		.Button-F02{
+			width:170px;
+			height:50px;
+			background-color:;
+			
+			border-top-right-radius:20px;
+			border-top-left-radius:8px;
+			border-bottom-right-radius:8px;
+			border-bottom-left-radius:8px;
+			
+			left:15px;
+			top:5px;
+			position:absolute;
+			
+			cursor:pointer;
+			
+			z-index:6;
+			
+		}/*內容 & button*/
+		
+		/*回上頁Button*/
+			.Button-H_Style{
+				
+				width:100px;
+				height:40px;
+				background-color:;
+				
+				top:45px;
+				left:780px;	
+				position:absolute;
+
+			}/*Style*/
+			
+			.Button-H01{
+				
+				width:100px;
+				height:40px;
+				background-color:;
+				
+				top:5px;
+				left:15px;	
+				position:absolute;
+
+			}/*Logo：箭頭木板*/
+			
+			.Button-H02{
+				
+				width:100px;
+				height:40px;
+				background-color:;
+				
+				top:2px;
+				left:15px;
+				position:absolute;
+
+			}/*文字*/
+			
+		/*民族Button*/
+			.Button-I_Style{
+				
+				width:160px;
+				height:59px;
+				background-color:;
+				
+				top:45px;
+				left:780px;	
+				position:absolute;
+
+			}/*Style*/
+			
+			.Button-I01{
+				
+				width:50px;
+				height:59px;
+				background-color:;
+				
+				top:5px;
+				left:15px;	
+				position:absolute;
+				
+				z-index:5;
+
+			}/*Logo：樹葉*/
+			
+			.Button-I02{
+				
+				width:250px;
+				height:59px;
+				background-color:;
+				
+				top:5px;
+				left:15px;
+				position:absolute;
+				
+				z-index:6;
+
+			}/*文字*/
+			
+			.Button-I03{
+				
+				width:160px;
+				height:50px;
+				background-color: rgb(255,204,14);
+				
+				top:10px;
+				left:15px;
+				position:absolute;
+				
+				border-top-right-radius:20px;
+				border-top-left-radius:15px;
+				border-bottom-right-radius:5px;
+				border-bottom-left-radius:25px;
+				
+				z-index:4;
+	
+			}/*背景*/
+			
+			.Button-I04{
+				
+				width:200px;
+				height:50px;
+				background-color: rgb(255,204,14);
+				
+				top:10px;
+				left:15px;
+				position:absolute;
+				
+				border-top-right-radius:20px;
+				border-top-left-radius:15px;
+				border-bottom-right-radius:5px;
+				border-bottom-left-radius:25px;
+				
+				z-index:4;
+	
+			}/*背景-加長*/
+		
+/*Box_Explore-home1--------------------------------------------------------*/		
+		
+		.Button-G_Style{
+			width: 300px;
+			height: 162px;
+			background-color:blue;
+			
+			top:50px;
+			left: 50px;
+			position: absolute;
+			
+			z-index:13;
+			
+		}
+		
+		.Button-G01{
+			width: 300px;
+			height: 162px;
+			background-color:;
+			
+			top:0px;
+			left: 0px;
+			position: absolute;
+			
+			z-index:12;
+		}/*背景圖片*/
+		
+		.Button-G02{
+			width: 300px;
+			height: 162px;
+			background-color:;
+			
+			top:0px;
+			left: 0px;
+			position: absolute;
+			
+			z-index:12;
+		}/*文字*/
+		
+		
+/*Style*/
+
+
+		.text_A01{
+			text-decoration:none;
+			
+			color : white;
+			font-family:宋体,Arial;
+			font-size: 20px; 
+			font-weight:normal; 
+			font-style:normal;
+		}
+
+		
+		.background{
+			width:100px;
+			height:100px;
+			background-color: red;
+
+		}
