@@ -1,0 +1,394 @@
+<html>
+<head>
+	<!-- 網站初始化&標題定義 -->
+		<title>台灣原住民族_邵族</title>
+	
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone = no" />	
+		<meta name="keywords"  content="民族，部落，文化，台灣原住民" />
+		<meta name="description" content="台灣原住民族教育宣傳網" />
+	
+	<!-- 快捷 & 收藏 圖標宣告 -->
+		<link 	rel="shortcut icon" 
+				href="" 
+				type="image/x-icon" />
+					
+		<link 	rel="Bookmark" 
+				href="" />
+				
+	<!-- CSS引用宣告 -->
+		<link href="../css/Button.css" rel="stylesheet" type="text/css" /><!--按鈕-->
+		<link href="../css/Box.css" rel="stylesheet" type="text/css" /><!--框架-->
+		<link href="../css/Box-v2_1.css" rel="stylesheet" type="text/css" /><!-- 框架v2_1 -->
+		<link href="../css/font.css" rel="stylesheet" type="text/css" /><!--字體形-->
+		<link href="../css/font-v2_1.css" rel="stylesheet" type="text/css" /><!-- 框架v2_1 -->
+		
+	<!-- Js引用宣告 -->
+		<script type="text/javascript" language="javascript" src="../js/Button.js"></script>
+		<script type="text/javascript" language="javascript" src="../js/Button-E.js"></script>
+		<script type="text/javascript" language="javascript" src="../js/Button-F.js"></script>
+</head>
+
+<body>
+	
+	<div class="Box-Style">
+
+	
+		<div class="Box-Top">
+		
+			<div class="Text-Box" id="Box-B01">
+						
+				<!-- hr: shortcut -->
+				<div id="Box-B03-shortcut">
+					Box-B03-shortcut
+				</div>
+							
+				<!-- hr: logo -->
+				<div id="Box-B02-Logo">
+					
+					<div class="Button-C-Style">
+								
+						<div class="Button-C01">
+							<img src="../img/Logo-v1_1.png">
+						</div>
+							
+						<div class="Button-C02
+									Text-font_Button-C-CN">
+							台灣原住民族網
+						</div>
+								
+						<div class="Button-C03
+									Text-font_Button-C-EN">
+							Taiwan's Indigenous Peoples Portal
+						</div>
+								
+						<a	class="	Button-C04
+									Text-font_Button-C-Link" 
+							href="../index.html"></a>
+						<!--Button-Click-->
+						
+					</div>
+					
+				</div>			
+				
+			</div>
+			
+			<!-- hr: login? -->	
+			<div class="Text-Box"id="Box-C01">
+				Box-C01:Login
+			</div>
+			
+		</div>
+		
+		<div class="Box-Functions" >
+			<div class="Text-font_Box-Functions" id="Box-D01">
+			
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D02">
+				
+			<!-- Button-B_function-A -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-A.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../index.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>網站首頁</span>
+						</a>
+					</div>	
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D03">
+						
+			<!-- Button-B_function-B -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-E.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../Explore.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>探索台灣</span>
+						</a>
+					</div>
+
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D04">
+						
+			<!-- Button-B_function-C -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-D.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../News.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>活動消息</span>
+						</a>
+					</div>
+						
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D05">
+					
+			<!-- Button-B_function-D -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-B.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../Research.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>研究資源</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D06">
+					
+			<!-- Button-B_function-E -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-F.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../ReferenceMaterial.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>參考資料</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D07">
+					
+			<!-- Button-B_function-F -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-C.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../AboutUs.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>關於我們</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				
+			</div>	
+		</div>
+		
+		<div class="Box-mainContent_home-2_EthnicGroup">
+		
+			<img 	class="Box-BG_H3v1_3"><!-- 背景圖 -->
+		
+			<div class="Box-EthnicGroup-01">
+			
+		<!-- V1_13版 Start -->			
+				<div class="Box-Explore_Content-Top"><!-- 上logo	-->
+				
+					<img class="Box-Explore_Content-Top_Logo01" src="../img/Logo/plant/Flower-v1_2.png"><!-- Logo:植物分隔條 -->
+				
+				</div>
+				
+				<div class="Box-Title-Explore-01 Font01_Explore-Title">探索台灣</div>
+		<!-- V1_13版 End -->
+				
+				<div class="Box-EthnicGroup-Top"><div>
+				
+				<div class="Box-EthnicGroup-Functions">
+				
+					<div class="Box-EthnicGroup-Title Font02_Button-Title">邵族</div><!--族群名稱-->
+					<div class="Box-EthnicGroup-BG"></div>
+						
+					<a class="Button-F_Style"  id="Box-EthnicGroup-01" href="EthnicGroup-01.html">
+						<div class="Button-F01" id="Button-F01_1"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_1">族群概述</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-02" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_2"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_2">族群歷史</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-03" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_3"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_3">社會組織</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-04" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_4"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_4">生命禮俗</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-05" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_5"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_5">祭典儀式</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-06" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_6"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_6">物質文化</div>
+					</a>
+					
+				</div>
+				
+				<div class="Box-EthnicGroup-Content-01">
+				
+					<div class="Box-EthnicGroup-Content_Title Font01_EthnicGroup-Title">族群概述</div><!-- 題目 -->
+					
+	<!-- V1_13版 Start -->				
+					<!-- Button-H_返回Button -->	
+					<div class="Button-H_Style">
+						
+					<!-- Logo -->
+						<img class="Button-H01" src="../img/Sub-HomePage/Folder/Logo/Logo_Back-v1_1.png">
+						
+					<!-- link -->		
+						<a 	href="../Explore-File/EthnicGroup_Home.html"
+							class="	Button-H02 
+									Font04_EthnicGroup-logo 
+									font-B_02">		
+							<span>回上頁</span>
+						</a>
+
+					</div>
+	<!-- V1_13版 End -->
+					
+					<div class="Box-EthnicGroup-TitleLine"></div><!-- 題目分割線 -->
+					
+					<div class="Box-EthnicGroup-Content_UnderLine">		
+					
+					<!-- 文章圖片 -->
+						<img  id="Box-EthnicGroup-Content_01v1_1"
+							src="../img/Sub-HomePage/Folder/EthnicGroup-01-v1_12.jpg"><!-- 內容圖片 -->
+      
+					<!-- 圖片來源 -->
+						<div id="Box-EthnicGroup-Content_01v1_1-Explain">
+							<P class="Font03_EthnicGroup-Explain">（圖片版權為「臺灣之美：意念影像圖庫系列」）</P>    
+						</div>
+						
+					<!-- 文章內容 -->
+
+						<p class="Font02_EthnicGroup-Content">
+							邵族分布在日月潭周圍地區，也就是舊稱「水沙連」的地方。相傳邵族的祖先在追逐一隻白鹿時，無意間來到了日月潭，發現周遭風光明媚且資源肥美，是個可讓子孫世代生存的地方，於是舉族搬遷於此。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							日月潭位在台灣島的中央，被水社大山、卜吉山、益積山、潭頭山、松柏崙山、貓蘭山……所圍繞，隸屬於南投縣魚池鄉，鄉內山岳甚多，並散布著大大小小十多個湖泊，構成台灣少見的鏡湖景觀。日月潭區含括水社、日月兩村；邵族人口最集中的「德化社」(Barawbaw)，即屬於日月村。另外，頭社系統的邵族則位於 南投縣水里鄉坎頂村的大平林。邵族目前人口約六百多人，是台灣原住民族族群中人口最少、漢化較深的一族。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							邵族的居住地雖然不靠海，但因為世居於日月潭畔，所以發展出海陸兼具的產業文化，而漁產也是邵族人重要的食材來源。邵族的生產方式主要為捕魚、打獵和山田燒墾，漁業在邵族的重要性僅次於農墾業，其漁獵的方法相當多，如「浮嶼誘魚法」、「魚筌誘魚法」、「毒魚」、「網魚」、「罩魚」……等，都足以顯示邵族漁業的發達。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							由於水力的開發迫使邵族遷徙及放棄耕地，再加上交通進步後，促使日月潭成為國內外聞名的觀光勝 地……等原因，造成邵族在生產方式上不得不從傳統轉而仰賴觀光業。雖然日月潭大部分的觀光業仍被漢人所掌握，多數邵族人僅以幫傭和打零工為主，但無論如 何，由於日月潭和邵族的緊密關係，邵族文化早已因商業化和觀光化的包裝，成為邵族人生活的一部分了。
+						</p>
+						
+						<p class="Font04_EthnicGroup-Explain-Title">
+							<B>湖上杵歌</B>
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							邵族最為外人所熟知的莫過於「杵歌」了，而如今也發展成專業的表演歌舞藝術，並列入日月潭的八景之一、世界的38首著名民歌之中。「杵歌」包含「杵聲(杵 音)」和「歌舞」兩部分；以杵擊石，發出叮叮咚咚聲即是「杵音」，再加上敲擊動作與樸素的歌聲，就形成「杵歌」了。「杵歌」多由邵族婦女所演奏，由於節奏 強烈，因此為多數人所喜愛。
+						</p>
+						
+						<p class="Font04_EthnicGroup-Explain-Title">
+							<B>獨木舟文化</B>
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							獨木舟是少邵族特殊的交通工具，是將整支樹幹挖空製成的，邵族人稱為Ruiza，據說是邵族祖先受潭中的猴子所啟發。獨木舟對邵族人來說是非常重要的，無論在潭中載人、捕魚、運貨都非常方便、適宜。
+						</p>
+						
+						
+						
+					</div>
+			
+				</div>
+			
+			</div>
+		
+		
+		
+		</div>
+
+		<div class="Box-Bottom_EthnicGroup">
+		
+			<div class="Box-E01">
+			
+				<p class="Text-font-Button-E_Information">地址：Address</p>
+				<p class="Text-font-Button-E_Information">電話：XXX-XXXX-XXXX  FAX: xxx-xxxx</p>
+				<p class="Text-font-Button-E_Information">EMAIL：xxx@.gmail.com</p>
+				
+			</div>
+			
+			<div class="Box-E02">
+				
+				<img 	class="Box-E03"
+						src="../img/Logo-v1_1.png">
+						
+				<p class="	Box-E04	
+							Text-font-Button-E_Copyright-1"> 
+							
+							COPYRIGHT（C）20XX-20XX 版权所有：
+							<span class="Text-font-Button-E_Copyright-2">
+								Oracragron.Waylon.Y
+							</span>		
+				</p>
+				
+			</div>
+			
+			
+			
+		</div>
+		
+	</div>
+	
+	
+
+</body>
+</html>
