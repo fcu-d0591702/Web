@@ -1,0 +1,632 @@
+	
+	.Text_holdPage{	
+		text-align: center;
+	
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 30px;
+		
+		font-weight:normal; 
+		font-style:normal;
+	}
+	
+	.Text-Box{
+		text-align: center;
+		line-height: 70px;
+		
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 30px;
+		
+		overflow:hidden;/*修剪*/
+		
+		font-weight:normal; 
+		font-style:normal;
+	}
+	
+	/*定義*/
+	
+	.Text-font-Box-Functions{	
+		text-align: center;
+		line-height:160px;
+	
+		color : rgb(117,165,55);
+		font-family:宋体,Arial;
+		font-size: 20px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+/*Button-C*/	
+	.Text-font_Button-C-Link{
+		text-align: center;
+		line-height:10px;
+	
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 20px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}
+	
+	.Text-font_Button-C-CN{
+		text-align: center;
+		line-height:10px;
+	
+		color : white;
+		font-family:楷体,Arial;
+		font-size: 25px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+	
+	.Text-font_Button-C-EN{
+		text-align: center;
+		line-height:10px;
+	
+		color : white;
+		font-family:Tahoma,Arial;
+		font-size: 13px;
+			
+		font-weight:600; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+	
+/*Box-Top--------------------------------------------------------*/		
+	.Font00_Top{
+		text-align: left;
+		line-height:65px;
+		
+		text-indent:30px;
+		
+		color : white;
+		font-family:Tahoma,Arial;
+		font-size: 20px;
+			
+		font-weight:600; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+	
+/*Box-mainContent_home-1--------------------------------------------------------*/	
+	.Font01_Button-F01{
+		text-align: center;
+		line-height:50px;
+	
+		color : white;
+		font-family:宋体,Arial;
+		font-size: 25px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*內容-文章-News*/
+		
+	.Font02_Button-Title{
+		text-align: center;
+		line-height:120px;
+	
+		color : rgb(68,113,10);
+		font-family:宋体,Arial;
+		font-size: 40px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*題目-文章-News*/	
+	
+	/*Explore*/
+		.Font01_Explore-Title{
+			text-align: center;
+			line-height:200px;
+		
+			color : rgb(116,178,53);
+			font-family:宋体,Arial;
+			font-size: 60px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-decoration:none;
+			
+		}/*Explore-Content-Title*/
+	
+		.Font01_Explore-Functions{
+			text-align: center;
+			line-height:180px;
+		
+			color : rgb(99,62,41);
+			font-family:宋体,Arial;
+			font-size: 30px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*Explore-Functions*/
+	
+	
+	
+	/*EthnicGroup*/	
+	
+		.Font01_EthnicGroup-Title{
+			text-align: Left;
+			line-height:80px;
+		
+			color : black;
+			font-family:宋体,Arial;
+			font-size: 40px;
+				
+			font-weight:900; 
+			font-style:normal;
+				
+			text-decoration:none;
+			
+		}/*EthnicGroup-Content-Title*/
+
+		.Font02_EthnicGroup-Content{
+			text-align: Left;
+			line-height:20px;
+			
+			color : black;
+			font-family:宋体,Arial;
+			font-size: 20px;
+			
+			text-indent: 2em;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+		}/*EthnicGroup-Content-Content*/
+		
+		.Font03_EthnicGroup-Explain{
+			text-align: Left;
+			line-height:10px;
+			
+			color : black;
+			font-family:宋体,Arial;
+			font-size: 20px;
+			
+			text-indent: 1em;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+			
+		}/*EthnicGroup-PIC-Explain*/
+		
+		/*EthnicGroup-Home*/
+			.Font05_EthnicGroup-Name{
+			text-align: Left;
+			line-height:59px;
+			
+			color : rgb(121,111,84);
+			font-family:宋体,Arial;
+			font-size: 20px;
+			
+			text-indent:45px;
+			
+			font-weight:900; 
+			font-style:normal;
+			
+			text-decoration:none;
+			
+		}/*EthnicGroup-PIC-Explain*/
+	
+	/*Calendar*/
+		.Font01_Calendar p{
+			text-align: center;
+			line-height:10px;
+			
+			color : rgb(159,71,10);
+			font-family:宋体,Arial;
+			font-size: 50px;
+			
+			text-indent:;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+		}/*month*/
+		
+		.Font02_Calendar{
+			text-align: left;
+			line-height:10px;
+			
+			color : rgb(196,51,85);
+			font-family:宋体,Arial;
+			font-size: 30px;
+			
+			text-indent:40px;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+		}/*內容標題*/
+		
+		.Font03_Calendar{
+			text-align: left;
+			line-height:10px;
+			
+			color : rgb(159,71,10);
+			font-family:宋体,Arial;
+			font-size: 25px;
+			
+			text-indent:;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+		}/*內容民族*/
+		
+	/*Tribe*/
+		.Font01_Tribe-Title{
+			
+			text-align:right;
+			line-height:50px;
+			
+			color : black;
+			font-family:宋体,Arial;
+			font-size: 30px;
+			
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+		}
+		
+		.Font02_Tribe-Content{
+			
+			text-align:left;
+			line-height:50px;
+			
+			color : black;
+			font-family:宋体,Arial;
+			font-size: 20px;
+
+			word-wrap:break-word;
+			word-break:hyphenate;
+			
+			font-weight:900; 
+			font-style:normal;
+		}
+	
+		/*回上頁*/
+		.Font04_EthnicGroup-logo{
+			text-align: center;
+			line-height:44px;
+		
+			color : rgb(99,62,41);
+			font-family:宋体,Arial;
+			font-size: 15px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*Explore-Functions*/
+		
+	/*About Us*/	
+		.Font01_AboutUs{
+			
+			text-align: center;
+			line-height:50px;
+		
+			color : rgb(99,62,41);
+			font-family:宋体,Arial;
+			font-size: 50px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*AboutUs*/
+		
+		.Font02_AboutUs{
+			
+			text-align: right;
+			line-height:100px;
+		
+			color : rgb(85,111,79);
+			font-family:宋体,Arial;
+			font-size: 35px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*AboutUs-name*/
+		
+		.Font03_AboutUs{
+			
+			text-align: center;
+			line-height:100px;
+		
+			color : rgb(85,111,79);
+			font-family:宋体,Arial;
+			font-size: 30px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*AboutUs-SID*/
+		
+		.Font04_AboutUs{
+			
+			text-align: left;
+			line-height:100px;
+		
+			color : rgb(85,111,79);
+			font-family:宋体,Arial;
+			font-size: 25px;
+				
+			font-weight:900; 
+			font-style:normal;
+			
+			text-indent: ;
+			
+			text-decoration:none;
+			
+		}/*AboutUs-Worker*/
+		
+/*Box-mainContent_home-2--------------------------------------------------------*/	
+	.Text-font-Button-D_Content{
+		text-align: left;
+		line-height:50px;
+	
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 20px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+	
+	.Text-font-Button-D_Date{
+		text-align: left;
+		line-height:50px;
+	
+		color : rgb(198,198,198);
+		font-family:宋体,Arial;
+		font-size: 15px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}/*Date*/
+	
+	.Text-font-Button-D_Title{
+		text-align: center;
+		line-height:30px;
+	
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 30px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+	}
+	
+	
+/*Box-mainContent_home-4--------------------------------------------------------*/	
+	.Text-font-Box-HomePage3{
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 30px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*Box-A04*/
+	
+	.font00-HomePage4-Title{
+		text-align: center;
+		line-height:100px;
+		
+		color : rgb(5,157,53);
+		font-family:宋体,Arial;
+		font-size: 40px;
+				
+		font-weight:900; 
+		font-style:normal;
+			
+		text-indent: ;
+		text-decoration:none;
+		
+	}/**/
+	
+
+	
+	
+/*Box-Bottom--------------------------------------------------------*/		
+	
+	.Text-font-Button-E_Information{
+		text-align: left;
+		line-height:10px;
+	
+		color : white;
+		font-family:仿宋体,Arial;
+		font-size: 16px;
+			
+		font-weight:normal; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*聯繫資訊字樣*/
+	
+	.Text-font-Button-E_Copyright-1{
+		text-align: left;
+		line-height:10px;
+	
+		color : white;
+		font-family:仿宋体,Arial;
+		font-size: 30px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*版權聲明字樣1*/
+	
+	.Text-font-Button-E_Copyright-2{
+		text-align: left;
+		line-height:10px;
+	
+		color : white;
+		font-family:仿宋体,Arial;
+		font-size: 17px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*版權聲明字樣2*/
+	
+	.Font01_Button-E01{
+		text-align: center;
+		line-height:5px;
+	
+		color : white;
+		font-family:仿宋体,Arial;
+		font-size: 30px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*日期*/
+	
+	.Font02_Button-E01{
+		text-align: center;
+		line-height:0px;
+	
+		color : white;
+		font-family:仿宋体,Arial;
+		font-size: 15px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*年月*/
+
+
+
+
+
+	
+	.Font03_Button-E01{
+		text-align: left;
+		line-height:0px;
+	
+		color : black;
+		font-family:仿宋体,Arial;
+		font-size: 25px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*內容-標題*/
+	
+	.Font04_Button-E01{
+		text-align: left;
+		line-height:3px;
+	
+		color : black;
+		font-family:宋体,Arial;
+		font-size: 15px;
+			
+		font-weight:900; 
+		font-style:normal;
+			
+		text-decoration:none;
+		
+	}/*內容-文章*/
+	
+	
+	
+	
+/*動態字體定義*/
+		
+	/*改變顏色*/
+		a.font-A:hover,
+		a.font-A:active {color:rgb(250,211,39);} 
+	
+	/*改變字體大小*/	
+		a.font-B:hover,
+		a.font-B:active {font-size:23px;}
+		
+		a.font-B_02:hover,
+		a.font-B_02:active {font-size:17px;}
+	
+	/*改變背景顏色*/
+		a.font-C:hover,
+		a.font-C:active {background:rgb(250,211,39);}
+
+	/*改變字體*/
+		a.font-D:hover,
+		a.font-D:active {font-family:'微软雅黑';}
+	
+	/*底線消失*/	
+		a.font-E:visited,
+		a.font-E:link {text-decoration:none;}
+	
+	/*出現底線*/	
+		a.font-E:hover,
+		a.font-E:active {text-decoration:underline;}
+	
