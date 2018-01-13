@@ -1,0 +1,318 @@
+
+/*home-1*/	
+	.Box-mainContent_home-1_EthnicGroup{
+		width: 100%;
+		height: 2650px;
+		background-color: ;
+			
+		top: 180px;
+		left: 0px;
+		position: absolute;
+			
+		z-index: 10;
+		
+	}/*mainContent_home-1-EthnicGroup*/
+	
+	.Box-mainContent_home-2_EthnicGroup{
+		width: 100%;
+		height: 1500px;
+		background-color:;
+			
+		top: 180px;
+		left: 0px;
+		position: absolute;
+			
+		z-index: 10;
+		
+	}/*mainContent_home-2-EthnicGroup*/
+	
+	.Box-EthnicGroup-Content-01{
+		width: 900px;
+		height: 1450px;
+		background-color:;
+			
+		top:200px;
+		left:270px;
+		position:absolute;
+	}
+	
+	.Box-EthnicGroup-01{
+		width: 1200px;
+		height: 1680px;
+		background-color: rgb(250,250,250);
+			
+		opacity:0.8;
+			
+		top:0px;
+		left:350px;
+		position:absolute;
+			
+		z-index: 11;
+	}/*框架*/
+	
+	.Box-mainContent_home-2_EthnicGroup{
+		width: 100%;
+		height: 1680px;
+		background-color: ;
+			
+		top: 180px;
+		left: 0px;
+		position: absolute;
+			
+		z-index: 10;
+		
+	}/*mainContent_home-1-EthnicGroup*/
+	
+	.Box-mainContent_home-3_EthnicGroup{
+		width: 100%;
+		height: 2050px;
+		background-color: ;
+			
+		top: 180px;
+		left: 0px;
+		position: absolute;
+			
+		z-index: 10;
+		
+	}/*mainContent_home-1-EthnicGroup*/
+	
+	.Box-mainContent_home-4_EthnicGroup{
+		width: 100%;
+		height: 1700px;
+		background-color:;
+			
+		top: 180px;
+		left: 0px;
+		position: absolute;
+			
+		z-index: 10;
+		
+	}/*mainContent_home-1-EthnicGroup*/
+	
+	.Box-EthnicGroup-Content-02{
+		width: 900px;
+		height: 1440px;
+		background-color:;
+			
+		top:200px;
+		left:270px;
+		position:absolute;
+	}
+	
+	.Box-EthnicGroup-Content-03{
+		width: 900px;
+		height: 1650px;
+		background-color:;
+			
+		top:200px;
+		left:270px;
+		position:absolute;
+	}
+	
+	.Box-EthnicGroup-Content-04{
+		width: 900px;
+		height: 2150px;
+		background-color:;
+			
+		top:200px;
+		left:270px;
+		position:absolute;
+	}
+	
+	.Box-EthnicGroup-Content-05{
+		width: 900px;
+		height: 1350px;
+		background-color:;
+			
+		top:200px;
+		left:270px;
+		position:absolute;
+	}
+	
+	.Box-EthnicGroup-02{
+		width: 1200px;
+		height: 1680px;
+		background-color: rgb(250,250,250);
+			
+		opacity:0.8;
+			
+		top:0px;
+		left:350px;
+		position:absolute;
+			
+		z-index: 11;
+	}/*框架*/
+	
+	.Box-EthnicGroup-03{
+		width: 1200px;
+		height: 2050px;
+		background-color: rgb(250,250,250);
+			
+		opacity:0.8;
+			
+		top:0px;
+		left:350px;
+		position:absolute;
+			
+		z-index: 11;
+	}/*框架*/
+	
+	.Box-EthnicGroup-04{
+		width: 1200px;
+		height: 2650px;
+		background-color: rgb(250,250,250);
+			
+		opacity:0.8;
+			
+		top:0px;
+		left:350px;
+		position:absolute;
+			
+		z-index: 11;
+	}/*框架*/
+	
+	.Box-EthnicGroup-05{
+		width: 1200px;
+		height: 1700px;
+		background-color: rgb(250,250,250);
+			
+		opacity:0.8;
+			
+		top:0px;
+		left:350px;
+		position:absolute;
+			
+		z-index: 11;
+	}/*框架*/
+	
+	#Box-EthnicGroup-Content_01v1_2-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:1450px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-03*/
+	
+	#Box-EthnicGroup-Content_01v1_3-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:460px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-04*/
+	
+	#Box-EthnicGroup-Content_01v1_4-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:1000px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-11*/
+	
+	#Box-EthnicGroup-Content_01v1_5-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:600px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-14*/
+	
+	#Box-EthnicGroup-Content_01v1_6-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:1000px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-14*/
+	
+	#Box-EthnicGroup-Content_01v1_7-Explain{		
+		width: 450px;
+		height: 50px;
+		background-color:;
+
+		top:1100px;
+		left:20px;
+		position:absolute;
+			
+		z-index:13;
+	}/*圖片來源-14*/
+	
+		
+		
+/*bottom*/		
+	.Box-Bottom_EthnicGroup-01{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1750px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup*/	
+
+	.Box-Bottom_EthnicGroup-02{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 2650px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup*/	
+
+	.Box-Bottom_EthnicGroup-03{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 2050px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup*/	
+	
+	.Box-Bottom_EthnicGroup-04{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1780px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup*/	
+
+
+	
+
+	
