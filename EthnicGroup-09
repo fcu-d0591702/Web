@@ -1,0 +1,435 @@
+<html>
+<head>
+	<!-- 網站初始化&標題定義 -->
+		<title>台灣原住民族_達悟族</title>
+	
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone = no" />	
+		<meta name="keywords"  content="民族，部落，文化，台灣原住民" />
+		<meta name="description" content="台灣原住民族教育宣傳網" />
+	
+	<!-- 快捷 & 收藏 圖標宣告 -->
+		<link 	rel="shortcut icon" 
+				href="" 
+				type="image/x-icon" />
+					
+		<link 	rel="Bookmark" 
+				href="" />
+				
+	<!-- CSS引用宣告 -->
+		<link href="../css/Button.css" rel="stylesheet" type="text/css" /><!--按鈕-->
+		<link href="../css/Box.css" rel="stylesheet" type="text/css" /><!--框架-->
+		<link href="../css/Box-v2_1.css" rel="stylesheet" type="text/css" /><!-- 框架v2_1 -->
+		<link href="../css/font.css" rel="stylesheet" type="text/css" /><!--字體形-->
+		<link href="../css/font-v2_1.css" rel="stylesheet" type="text/css" /><!-- 框架v2_1 -->
+		
+	<!-- Js引用宣告 -->
+		<script type="text/javascript" language="javascript" src="../js/Button.js"></script>
+		<script type="text/javascript" language="javascript" src="../js/Button-E.js"></script>
+		<script type="text/javascript" language="javascript" src="../js/Button-F.js"></script>
+</head>
+
+<body>
+	
+	<div class="Box-Style">
+
+	
+		<div class="Box-Top">
+		
+			<div class="Text-Box" id="Box-B01">
+						
+				<!-- hr: shortcut -->
+				<div id="Box-B03-shortcut">
+					Box-B03-shortcut
+				</div>
+							
+				<!-- hr: logo -->
+				<div id="Box-B02-Logo">
+					
+					<div class="Button-C-Style">
+								
+						<div class="Button-C01">
+							<img src="../img/Logo-v1_1.png">
+						</div>
+							
+						<div class="Button-C02
+									Text-font_Button-C-CN">
+							台灣原住民族網
+						</div>
+								
+						<div class="Button-C03
+									Text-font_Button-C-EN">
+							Taiwan's Indigenous Peoples Portal
+						</div>
+								
+						<a	class="	Button-C04
+									Text-font_Button-C-Link" 
+							href="../index.html"></a>
+						<!--Button-Click-->
+						
+					</div>
+					
+				</div>			
+				
+			</div>
+			
+			<!-- hr: login? -->	
+			<div class="Text-Box"id="Box-C01">
+				Box-C01:Login
+			</div>
+			
+		</div>
+		
+		<div class="Box-Functions" >
+			<div class="Text-font_Box-Functions" id="Box-D01">
+			
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D02">
+				
+			<!-- Button-B_function-A -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-A.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../index.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>網站首頁</span>
+						</a>
+					</div>	
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D03">
+						
+			<!-- Button-B_function-B -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-E.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../Explore.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>探索台灣</span>
+						</a>
+					</div>
+
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D04">
+						
+			<!-- Button-B_function-C -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-D.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../News.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>活動消息</span>
+						</a>
+					</div>
+						
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D05">
+					
+			<!-- Button-B_function-D -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-B.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../Research.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>研究資源</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D06">
+					
+			<!-- Button-B_function-E -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-F.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../ReferenceMaterial.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>參考資料</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D07">
+					
+			<!-- Button-B_function-F -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="../img/Functions/Function-C.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="../AboutUs.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-B">		
+							<span>關於我們</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				
+			</div>	
+		</div>
+		
+		<div class="Box-mainContent_home-3_EthnicGroup">
+		
+			<img 	class="Box-BG_H3v1_3"><!-- 背景圖 -->
+		
+			<div class="Box-EthnicGroup-03">
+			
+		<!-- V1_13版 Start -->			
+				<div class="Box-Explore_Content-Top"><!-- 上logo	-->
+				
+					<img class="Box-Explore_Content-Top_Logo01" src="../img/Logo/plant/Flower-v1_2.png"><!-- Logo:植物分隔條 -->
+				
+				</div>
+				
+				<div class="Box-Title-Explore-01 Font01_Explore-Title">探索台灣</div>
+		<!-- V1_13版 End -->
+				
+				<div class="Box-EthnicGroup-Top"><div>
+				
+				<div class="Box-EthnicGroup-Functions">
+				
+					<div class="Box-EthnicGroup-Title Font02_Button-Title">達悟族</div><!--族群名稱-->
+					<div class="Box-EthnicGroup-BG"></div>
+						
+					<a class="Button-F_Style"  id="Box-EthnicGroup-01" href="EthnicGroup-01.html">
+						<div class="Button-F01" id="Button-F01_1"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_1">族群概述</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-02" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_2"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_2">族群歷史</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-03" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_3"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_3">社會組織</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-04" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_4"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_4">生命禮俗</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-05" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_5"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_5">祭典儀式</div>
+					</a>
+					
+					<a class="Button-F_Style"  id="Box-EthnicGroup-06" href="https://www.google.com.tw/">
+						<div class="Button-F01" id="Button-F01_6"></div>
+						<div class="Button-F02 Font01_Button-F01" id="Button-F02_6">物質文化</div>
+					</a>
+					
+				</div>
+				
+				<div class="Box-EthnicGroup-Content-03">
+				
+					<div class="Box-EthnicGroup-Content_Title Font01_EthnicGroup-Title">族群概述</div><!-- 題目 -->
+					
+	<!-- V1_13版 Start -->				
+					<!-- Button-H_返回Button -->	
+					<div class="Button-H_Style">
+						
+					<!-- Logo -->
+						<img class="Button-H01" src="../img/Sub-HomePage/Folder/Logo/Logo_Back-v1_1.png">
+						
+					<!-- link -->		
+						<a 	href="../Explore-File/EthnicGroup_Home.html"
+							class="	Button-H02 
+									Font04_EthnicGroup-logo 
+									font-B_02">		
+							<span>回上頁</span>
+						</a>
+
+					</div>
+	<!-- V1_13版 End -->
+					
+					<div class="Box-EthnicGroup-TitleLine"></div><!-- 題目分割線 -->
+					
+					<div class="Box-EthnicGroup-Content_UnderLine">		
+					
+					<!-- 文章圖片 -->
+						<img  id="Box-EthnicGroup-Content_01v1_1"
+							src="../img/Sub-HomePage/Folder/EthnicGroup-01-v1_10.jpg"><!-- 內容圖片 -->
+      
+					<!-- 圖片來源 -->
+						<div id="Box-EthnicGroup-Content_01v1_1-Explain">
+							<P class="Font03_EthnicGroup-Explain">（圖片版權為「臺灣之美：意念影像圖庫系列」）</P>    
+						</div>
+						
+					<!-- 文章內容 -->
+
+						<p class="Font04_EthnicGroup-Explain-Title">
+							<B>地理位置 </B>
+						</p>
+						
+					
+						<p class="Font02_EthnicGroup-Content">
+							達悟族在行政區分上隸屬於台東縣蘭嶼鄉，總人口數約三千多人（原民會，民國98年7月），分佈在紅頭、漁人、椰油、東清、胡島、銀野六村。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							台灣東南海外的蘭嶼島，面積四十五平方公里，是一火山島。全島大部份為山地，大半為熱帶雨林覆蓋。達悟族人在山海交接處建立村落，住屋為半穴居。因四周環海，他們以捕魚為生，每年三至六月隨著黑潮迴游到來的飛魚，是族人最重要的漁撈物。也種植並食用薯、芋、栗。因為海洋在生活中的重要性，連帶使得魚舟下水禮也成為雅美族年中的重要行事之一。
+						</p>
+						
+						<p class="Font04_EthnicGroup-Explain-Title">
+							<B>文化特質</B>
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							由於地理隔絕，他們是原住民族中較晚接觸漢人的一支。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							達悟族居住於台東外海的蘭嶼島上，達悟人自稱「達悟」，是「人」的意思。早期稱之為「雅美」一詞是日本人鳥居龍藏所命名，西元一九九五年，旅台的達悟青年成立「達悟同鄉會」希冀正名「雅美」為「達悟」。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							用什麼方式來認識達悟族呢?先告訴大家關於達悟族的「飛魚文化」吧。每年三月，飛魚隨著黑潮迴游到蘭嶼的海域，達悟人舉行召請飛魚前來的招魚祭，祭典之後，達悟人開始捕飛魚，但只限於晚上以火炬照明，以吸引魚群，到了四月，准許白天用小船釣大魚，夜間則休息。五～七月，開放白天捕飛魚，這幾個月也是最繁忙的季節，但除了飛魚以外，其他的漁類不准撈捕。
+						</p>
+						
+						<!-- 文章圖片 -->
+						<img  id="Box-EthnicGroup-Content_01v1_1"
+							src="../img/Sub-HomePage/Folder/EthnicGroup-01-v1_11.jpg"><!-- 內容圖片 -->
+      
+						<!-- 圖片來源 -->
+						<div id="Box-EthnicGroup-Content_01v1_4-Explain">
+							<P class="Font03_EthnicGroup-Explain">（圖片版權為「臺灣之美：意念影像圖庫系列」）</P>    
+						</div>
+						
+						<p class="Font02_EthnicGroup-Content">
+							由於地理隔絕，他們是原住民族中較晚接觸漢人的一支。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							捕了這麼多飛魚，吃不完的曬乾儲存，過了九月，約中秋節以後，禁止再食用飛魚，所有吃不完的飛魚也要全部丟棄。不同的月份用不同的方式捕不同的魚類不僅調節了海洋魚類的生態，而吃飛魚的季節限制也遏止了濫捕、貪婪的情況發生。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							達悟人視飛魚為上蒼賜予的神聖物品，因此要以敬畏戒慎的心情對待。無形中衍生成一種社會規範。以現代的觀點來看，達悟人的飛魚文化更是非常先進的生態理念呢！
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							另一個非常符合生態保育的觀念是對魚類的分類。基本上，魚可以分為：
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							老人魚(只有老人可以食用)。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							男人魚(味腥、皮如砂紙，女人不能食用)。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							女人魚(肉質鮮美，任何人皆可食用)。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							因此，一個達悟男子在捕魚時，必須捕撈到不同種的魚，以供應家裡的男女老少享用。間接地抑制了過量捕殺單一魚類的危機，也兼顧了生態保育的平衡。
+						</p>
+						
+						<p class="Font02_EthnicGroup-Content">
+							蘭嶼為熱帶海洋性氣候，年平均溫度為攝氏26度，除了冬季較寒冷外，大部份為炎熱的天氣，又因位於颱風季節的要衝，島上又無高山屏障(最高峰僅548公尺)，因此聰明的達悟祖先發明了穴居地下屋，使颱風季節仍能高枕無憂，又為了適應炎夏的燠熱，欄干式的涼台設計是夏日最好的休憩場所。穴居的地下屋下雨時是否會積水?聰明的達悟人在挖地基時，以卵石鋪陳，讓雨水滲透進地下，連接天然的水道送至海裡。
+						</p>
+						
+						
+					</div>
+			
+				</div>
+			
+			</div>
+		
+		
+		
+		</div>
+
+		<div class="Box-Bottom_EthnicGroup-03">
+		
+			<div class="Box-E01">
+			
+				<p class="Text-font-Button-E_Information">地址：Address</p>
+				<p class="Text-font-Button-E_Information">電話：XXX-XXXX-XXXX  FAX: xxx-xxxx</p>
+				<p class="Text-font-Button-E_Information">EMAIL：xxx@.gmail.com</p>
+				
+			</div>
+			
+			<div class="Box-E02">
+				
+				<img 	class="Box-E03"
+						src="../img/Logo-v1_1.png">
+						
+				<p class="	Box-E04	
+							Text-font-Button-E_Copyright-1"> 
+							
+							COPYRIGHT（C）20XX-20XX 版权所有：
+							<span class="Text-font-Button-E_Copyright-2">
+								Oracragron.Waylon.Y
+							</span>		
+				</p>
+				
+			</div>
+			
+			
+			
+		</div>
+		
+	</div>
+	
+	
+
+</body>
+</html>
