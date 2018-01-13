@@ -1,0 +1,513 @@
+<html>
+<head>
+	<!-- 網站初始化&標題定義 -->
+		<title>台灣原住民族</title>
+	
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone = no" />	
+		<meta name="keywords"  content="民族，部落，文化，台灣原住民" />
+		<meta name="description" content="台灣原住民族教育宣傳網" />
+	
+	<!-- 快捷 & 收藏 圖標宣告 -->
+		<link 	rel="shortcut icon" 
+				href="" 
+				type="image/x-icon" />
+					
+		<link 	rel="Bookmark" 
+				href="" />
+				
+	<!-- CSS引用宣告 -->
+		<link href="css\Button.css" rel="stylesheet" type="text/css" /><!--按鈕-->
+		<link href="css\Box.css" rel="stylesheet" type="text/css" /><!--框架-->
+		<link href="css\font.css" rel="stylesheet" type="text/css" /><!--字體形-->
+		<link href="\css\ScreenRegulator.css" rel="stylesheet" type="text/css" /><!--屏幕適應-->
+		
+	<!-- Js引用宣告 -->
+		<script type="text/javascript" language="javascript" src="js\Button-A.js"></script>
+		<script type="text/javascript" language="javascript" src="js\Button-D.js"></script>
+		
+	<!-- Style定義 -->
+		<style> 
+			#Box-mainContent_home-1_Cycle{ 
+				width: 100%;
+				height: 698px; 
+				overflow: hidden;
+				
+				top: 0px;
+				left: 0px;
+				position: absolute;
+	
+				 
+			} 
+			.pic { 
+				position: absolute;
+				
+				width: 100%;
+				height: 698px; 
+
+				color:white; 
+				bottom:0; 
+			} 
+
+			.move { 
+				bottom: 1897px; 
+				transition: bottom 3s; /* 设置图片移动消耗的时间*/ 
+			}
+			
+			body{
+				margin: 0px;
+			}
+			
+			
+		</style>
+		
+</head>
+
+<body>
+	
+	<script>
+		
+		window.addEventListener('load',function(){ 
+			var pics = document.getElementsByClassName('pic'); 
+			
+		  //为每个pic元素设置z-index的值 
+			for(let i=0; i<pics.length; i++){ 
+				pics[i].style.zIndex = pics.length-i; 
+			} 
+			
+		  //循环播放图片的函数 
+			var loopPics = (function(){ 
+			var index=0; 
+				return function(pics,delay){ 
+					var recall = function(pic){ 
+				//给图片增加move类，调用css的transition属性播放移动动画 
+				pic.className += ' move'; 
+				setTimeout(function(){ 
+				  //取消图片的move类，图片返回原位 
+				  pic.className = pic.className.replace(' move',''); 
+				  //改变图片组的堆叠顺序。最外的图片放到最下面，其他图片依次向外移动 
+				  for(let i=0; i<pics.length; i++){ 
+					if(pics[i].style.zIndex == pics.length){ 
+					  pics[i].style.zIndex=1; 
+					} else { 
+					  pics[i].style.zIndex=pics[i].style.zIndex*1+1; 
+					} 
+				  } 
+				  index++; 
+				  if(index==pics.length) index=0; 
+				  recall(pics[index]); 
+				},delay); 
+			  }; 
+			  recall(pics[index]); 
+			}; 
+		  })(); 
+		  //调用函数，循环播放。delay的时间需要大于等于css动画里设置的图片移动时间 
+		  loopPics(pics,10000); 
+		}); 
+	</script> 
+
+	<div class="Box-Style">
+	
+	
+		<img class="Box-Outside_Down" id="Box-Outside_Down-01" src="img\Logo\Logo-Down-01.png"><!-- 白色下指標 -->
+	<!--	<div class="Box-Outside_Line"></div> 垂直分隔線-->
+		<img class="Box-Outside_Down" id="Box-Outside_Down-02" src="img\Logo\Logo-Down-02.png">
+		
+		<img class="Box-Outside_Logo-Tree" src="img\Logo\plant\Tree-v2_1.jpg"><!-- 大樹背景 -->
+		
+		<div class="Box-Top">
+		
+			<div class="Text-Box" id="Box-B01">
+						
+				<!-- hr: shortcut -->
+				<div id="Box-B03-shortcut">
+				
+							<!-- Logo -->
+							<div class="Button-J01">
+								<img src="img\Logo-v1_2.png">
+							</div>
+			
+							<!-- link -->		
+							<a 	href="Map.html"
+								class="	Button-J02 
+										Font00_Top
+										font-B
+										font-C">		
+								<span>網站地圖</span>
+							</a>
+				
+				
+				</div>
+				
+				
+				
+							
+				<!-- hr: logo -->
+				<div id="Box-B02-Logo">
+					
+					<div class="Button-C-Style">
+								
+						<div class="Button-C01">
+							<img src="img\Logo-v1_1.png">
+						</div>
+							
+						<div class="Button-C02
+									Text-font_Button-C-CN">
+							台灣原住民族網
+						</div>
+								
+						<div class="Button-C03
+									Text-font_Button-C-EN">
+							Taiwan's Indigenous Peoples Portal
+						</div>
+								
+						<a	class="	Button-C04
+									Text-font_Button-C-Link" 
+							href="index.html"></a>
+						<!--Button-Click-->
+						
+					</div>
+					
+				</div>			
+				
+			</div>
+			
+			<!-- hr: index -->	
+			<div class="Text-Box"id="Box-C01">
+				
+				
+				<div class="search bar6">
+					<form>
+					
+						<input type="text" placeholder="搜尋" name="name">
+						<button type="submit"></button>
+						
+					</form>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+		<div class="Box-Functions" >
+			<div class="Text-font_Box-Functions" id="Box-D01">
+			
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D02">
+				
+			<!-- Button-B_function-A -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-A.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="index.html"
+							class="	Button-B02 
+									Text-font-Box-Functions 
+									font-A
+									font-B">		
+							<span>網站首頁</span>
+						</a>
+					</div>	
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D03">
+						
+			<!-- Button-B_function-B -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-E.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="Explore.html"
+							class="	Button-B02 
+									Text-font-Box-Functions
+									font-A
+									font-B">		
+							<span>探索台灣</span>
+						</a>
+					</div>
+
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D04">
+						
+			<!-- Button-B_function-C -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-D.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="News.html"
+							class="	Button-B02 
+									Text-font-Box-Functions
+									font-A
+									font-B">		
+							<span>活動消息</span>
+						</a>
+					</div>
+						
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D05">
+					
+			<!-- Button-B_function-D -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-B.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="Research.html"
+							class="	Button-B02 
+									Text-font-Box-Functions
+									font-A
+									font-B">		
+							<span>研究資源</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D06">
+					
+			<!-- Button-B_function-E -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-F.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="ReferenceMaterial.html"
+							class="	Button-B02 
+									Text-font-Box-Functions
+									font-A
+									font-B">		
+							<span>參考資料</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				<div class="Box-D-z_index12-Style"
+					 id="Box-D07">
+					
+			<!-- Button-B_function-F -->
+					<div class="Button_B-Style">
+	
+						<!-- Logo -->
+						<div class="Button-B01">
+							<img src="img\Functions\Function-C.png">
+						</div>
+		
+						<!-- link -->		
+						<a 	href="AboutUs.html"
+							class="	Button-B02 
+									Text-font-Box-Functions
+									font-A
+									font-B">		
+							<span>關於我們</span>
+						</a>
+					</div>
+					
+				</div>
+				
+				
+			</div>	
+		</div>
+		
+		<div class="Box-mainContent_home-1">
+			
+			<div id="Box-mainContent_home-1_Cycle"> 
+				<div id="pic1" class="pic">
+					<img style="height:698px" src="img\HomePage-1\homePage-v1_1.jpg">
+				</div> 
+				
+				<div id="pic2" class="pic">
+					<img src="img\HomePage-1\homePage-v1_2.jpg">
+				</div> 
+			</div><!-- 未調整大小 大小限制：1897 X 698 -->
+	
+			
+		</div>
+		
+		<div class="Box-Banner_home-1">
+
+			<img src="img\Banner\Banner-v1_1.jpg">
+			
+			
+			
+		</div>
+		
+		<div class="Box-mainContent_home-2">
+		
+			
+			<div 	class="Button-D-Style_Home-2">
+			
+				<div 	class="Button-D01"
+						id="Button-D01_1">
+				
+				<!-- Title -->	
+					<div class="Button-D06">
+					
+						<div class="Button-D05
+									Text-font-Button-D_Title">部落</div>
+										
+						<img 	class="Button-D04"
+								src="img\HomePage-2\img-Title-v1_1.jpg"><!-- 131*30 Title -->
+						
+					</div>
+								
+					<img 	class="Button-D03"
+							id="Button-D03_1"
+							src="img\HomePage-2\img-Search-v1_1.png"><!-- 40*40 Logo -->
+				<!-- img-Photo -->			
+					<img 	class="Button-D02"
+							id="Button-D02_1"
+							src="img\HomePage-2\img-v1_1.jpg"><!-- 640*306 img -->
+							
+				<!-- Click-Button -->		
+					<a	class="	Button-D09"
+						id="Button-D09_1"
+						href="Explore-File/Tribe.html"></a>	
+					
+					<div class="Button-D07
+								Text-font-Button-D_Content">新聞資訊</div>
+					
+					<div class="Button-D08
+								Text-font-Button-D_Date">Date:0/0/0</div>
+
+				</div>
+					
+			</div>
+		
+		</div>
+		
+		<div class="Box-mainContent_home-3">
+			
+		<!--	<div class="Box-background_B"></div><!-- 分隔圖A -->
+			
+			<div class="Button-D-Style_Home-3">
+			
+				<div 	class="Button-D01"
+						id="Button-D01_2">
+				
+				<!-- Title -->	
+					<div class="Button-D06">
+					
+						<div class="Button-D05
+									Text-font-Button-D_Title">民族</div>
+										
+						<img 	class="Button-D04"
+								src="img\HomePage-2\img-Title-v1_1.jpg"><!-- 131*30 Title -->
+						
+					</div>
+								
+					<img 	class="Button-D03"
+							id="Button-D03_2"
+							src="img\HomePage-2\img-Search-v1_1.png"><!-- 40*40 Logo -->
+				<!-- img-Photo -->			
+					<img 	class="Button-D02"
+							id="Button-D02_2"
+							src="img\HomePage-2\img-v1_2.jpg"><!-- 640*306 img -->
+							
+				<!-- Click-Button -->		
+					<a	class="	Button-D09"
+						id="Button-D09_2"
+						href="Explore-File\EthnicGroup_Home.html"></a>	
+					
+					<div class="Button-D07
+								Text-font-Button-D_Content">新聞資訊</div>
+					
+					<div class="Button-D08
+								Text-font-Button-D_Date">Date:0/0/0</div>
+
+				</div>
+					
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		<div class="Box-mainContent_home-4">
+	
+			<img src="img\HomePage-4\HomePage4-v1.1.jpg">
+			
+			<div class="Box-homePage4_01"></div>
+			
+				<div class="Box-homePage4_00 font00-HomePage4-Title">
+					關於 我們
+				</div>
+				
+				<div 	class="Box-homePage4_00 font00-HomePage4-Title"
+						style="top:190px;">
+					組名：Dynamic
+				</div>
+				
+				<div 	class="Box-homePage4_00 font00-HomePage4-Title"
+						style="top:250px;">
+					專題名稱：部落民族
+				</div>
+			
+			
+			
+		</div>	
+		
+		<div class="Box-Bottom">
+			
+			<div class="Box-E01">
+			
+				<p class="Text-font-Button-E_Information">地址：Address</p>
+				<p class="Text-font-Button-E_Information">電話：XXX-XXXX-XXXX  FAX: xxx-xxxx</p>
+				<p class="Text-font-Button-E_Information">EMAIL：xxx@.gmail.com</p>
+				
+			</div>
+			
+			<div class="Box-E02">
+				
+				<img 	class="Box-E03"
+						src="img\Logo-v1_1.png"><!-- Logo -->
+						
+				<p class="	Box-E04	
+							Text-font-Button-E_Copyright-1"> 
+							
+							COPYRIGHT（C）20XX-20XX 版权所有：
+							<span class="Text-font-Button-E_Copyright-2">
+								Oracragron.Waylon.Y
+							</span>		
+				</p>
+				
+			</div>
+			
+			
+			
+		</div>
+		
+	</div>
+	
+	
+
+</body>
+</html>
