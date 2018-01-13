@@ -1,2880 +1,1400 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
-	
-	<!-- 網站定義 -->
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="format-detection" content="telephone=no" />
-		<title>台灣原住民族</title>
-	<meta name="keywords"  content="网站关键字" />
-	<meta name="description" content="网站描述" />
-	
-    <!-- 快捷 & 收藏 圖標宣告 -->               
-		<link rel="shortcut icon" href="C:\Users\16649\Desktop\Web-Project\images\favicon.ico" type="image/x-icon" /> 
-		<link rel="Bookmark" href="C:\Users\16649\Desktop\Web-Project\images\favicon.ico" />
-		
-	<!-- CSS引用宣告 -->	
-		<link href="C:\Users\16649\Desktop\Web-Project\css\default.css" rel="stylesheet" type="text/css" />
-		<link href="C:\Users\16649\Desktop\Web-Project\css\title.css" rel="stylesheet" type="text/css" />
-		<link href="C:\Users\16649\Desktop\Web-Project\css\media.css" rel="stylesheet" type="text/css" />
-		<link href="C:\Users\16649\Desktop\Web-Project\css\customerservice.css" rel="stylesheet" type="text/css" />
-	
-	<!-- 文本樣式定義 -->
-	<style type="text/css">
-	
-		.scroll_contain a:link{
-			font-family:宋体,Arial; 
-			font-size:12px; 
-			font-weight:normal; 
-			font-style:normal;
-		}
-		
-		#scroll_container a:visited{
-			color:#666666; 
-			font-weight:normal; 
-			font-style:normal;
-		}
-		
-		#scroll_container a:hover{
-			color:#aa0d01;
-			font-weight:normal;
-			font-style:normal;
-		}
-		
-		.prop_rotate_angle sup,.prop_rotate_angle .posblk-deg{
-			font-size:11px; 
-			color:#CDCDCD; 
-			font-weight:normal; 
-			font-style:normal; 
-		}
-		
-		ins#qiao-wrap{
-			height:0;
-		} 
-		
-		#qiao-wrap{
-			display:block;
-		}
-	</style>
-	<!-- 域名定義 -->
-	<script type="text/javascript">
-		document.domain = 'NULL';	<!-- NULL：暫時無域名（未申請） -->
-	</script>
-	
-</head>
+/*
+	style:  以名字定義
+	   id： 以編號定義 
 
-<body>
+*/
+	
+/*整體框架結構定義為 A系*/	
+	
+	.Box-background_A{
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		opacity:0.2;
+	
+	}/*背景圖A*/
+	
+	.Box-background_B{
+		
+		width:100%;
+		height:20px;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		background-image:url(../img/Bottom/Bottom-V1_1.png);
+		background-repeat: repeat-x;
+		
+		opacity:1;
+	
+	}/*分隔圖A*/
+		
+/*Box-Outside--------------------------------------------------------*/	
+	
+	.Box-Outside_Line{	
+		width:0px;
+		height:1400px;
 
-	<input type="hidden" value="2" name="_user_level_val" />
+		border-color: rgb(199,221,157);
+		border-style: dotted;
+		border-width:3px;
+		
+		background-color: ;
+		
+		margin-right: -960px;
+		
+		top: 1100px;
+		left: 50%;
+		position: absolute;
+		
+		z-index:20;
 	
-	<!-- JQ\JS 宣告 -->
-		<script type="text/javascript" language="javascript" src="C:\Users\16649\Desktop\Web-Project\js\effects.js, fullpagescroll.js, common.js, heightAdapt.js"></script>
-		<script type="text/javascript" language="javascript" src="C:\Users\16649\Desktop\Web-Project\js\jquery.pseudo.js"></script>
-		<script type="text/javascript" language="javascript">
+	}/*index.html-中間虛線*/
+	
+	.Box-Outside_Down{
+		width:60px;
+		height:32px;
 		
-		//js版本url生成函数
-			var webmodel = {};		
-			wp_pages_global_func($.extend(
-			
-				{
-					'isedit': '0',
-					'islogin': '0',
-					'domain': 'tpl-c182c84',
-				//	'p_rooturl': 'http://travel-441.view.sitestar.cn',
-				//	'static_rooturl': 'http://static.websiteonline.cn/website',
-					'interface_locale': "zh_CN",
-					'getsession': ''
-				}, 
-				
-				{
-					"phpsessionid":"",
-					"punyurl":"\/\/travel-441.view.sitestar.cn",
-					"curr_locale":"zh_CN",
-					"mscript_name":"",
-					"converted":false
-				}
-			));
-		
-		</script>
+		margin-left:-25px;
 
-	<link rel="stylesheet" href="C:\Users\16649\Desktop\Web-Project\css\jquery.fullPage.css">
-	
-	
-	
-	<script src="C:\Users\16649\Desktop\Web-Project\js\jquery-ui.min.js"></script>
-	<script src="C:\Users\16649\Desktop\Web-Project\js\jquery.fullPage.js"></script>
-	
-	<script>
-		$(function(){
+		left: 50%;
+		position: absolute;
 		
-			if($.browser.msie && $.browser.version < 10){
-				$('body ').addClass('ltie10');
-			}//判斷瀏覽器
+		z-index:21;
+	}
+	
+	#Box-Outside_Down-01{
+		top: 880px;
+	}
+	
+	#Box-Outside_Down-02{
+		top: 2550px;
+	}
+	
+	/*大樹背景*/
+		.Box-Outside_Logo-Tree{
+			width:1500px;
+			height:1500px;	
 			
-			$.fn.fullpage({
+			opacity:0.5;
 			
-				menu:true,
-				slidesNavigation: true,
-				verticalCentered: false,
-				anchors: ["page1","page2","page3","page4"],
-				navigation: true,
-				navigationTooltips: ["\u555f\u7a0b","\u63a2\u7d22","\u8cc7\u8a0a","\u806f\u7e6b"], //右側轉頁選擇鍵_中文輸出_UniCode
-				
-				afterLoad: function(anchorLink, index){
-				
-					var curindex = $.WOPOP_EFFECTS._getindex();
-					
-					if(curindex!=index){
-						$.WOPOP_EFFECTS._setindex(index);
-						setTimeout(function(){
-							$('.fullpage_alllist .cstlayer').filter($.WOPOP_EFFECTS._hasEffectFilter).wopop_effect_command('stop').hide();
-							$('.fullpage_alllist .section'+index+' .full_content .cstlayer').filter(':not([deleted=deleted])').showEffects(true);
-						},0);
-					}
-					
-					$('.fullpage_alllist .section.section'+index+' .full_content .cstlayer.fullpage_widget').each(function(){
-						$.showWidgetBorder($(this));
-					})
-							
-					$('.fullpage_alllist .full_content .cstlayer.fullpage_widget').removeClass('fullpage_widget');
-					
-				},
-				
-				onLeave: function(index,direction){
-					$('.fullpage_alllist .section:not(.section'+index+') .full_content .cstlayer').filter($.WOPOP_EFFECTS._hasEffectFilter).wopop_effect_command('stop').hide();
-					if($.WOPOP_EFFECTS._isEditMode()){
-						$('.fullpage_alllist .section.section'+index+' .full_content .cstlayer.ui-modselected').each(function(){
-							$(this).addClass('fullpage_widget');
-							$.hidWidgetBorder($(this));
-						})
-					}
-				},
-				
-				afterRender:function(){
-					$('.fullpage_alllist .cstlayer').filter($.WOPOP_EFFECTS._hasEffectFilter)
-					.wopop_effect_command('stop').hide();
-					var activeEffect=$('.fullpage_alllist .section.active  .full_content .cstlayer').filter(':not([deleted=deleted])');
-					
-					$.WOPOP_EFFECTS._setindex($('.fullpage_alllist .section.active').index('.section')+1);
-					if(activeEffect.length){
-						$(window).bind('load',function(){
-							setTimeout(function(){
-								activeEffect.showEffects(true);
-							},10);
-						})
-					}
-				},
-				
-				loopBottom:true
-				
-			});//頁面滾動設置
+			margin-left:-750px;
 			
+			top:1100px;
+			left:50%;
+			position:absolute;
+			
+			z-index:10;
+		}
+	
+/*Box-Top--------------------------------------------------------*/
+/* B,C系*/
+
+	.Box-Top{
+		width: 100%;
+		height: 70px;
+		background-color: ;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+
+	}/*Box-A01*/
+	
+	/*左上角框架定義：B系*/
+		#Box-B01{
+			width: 700px;
+			height: 70px;
+			background-color: rgb(111,157,53);
+			
+			top: 0px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+			
+		}/*框架*/
+		
+		#Box-B02-Logo{
+			width: 300px;
+			height: 70px;
+			background-color: rgb(111,157,53);
+
+			top:0px;
+			left:240px;
+			position:absolute;
+			
+			z-index: 12;
+			
+		}/*Box-B02*/
+			
+		#Box-B03-shortcut{
+			width: 160px;
+			height: 70px;
+			background-color: rgb(65,104,21);
+
+			top:0px;
+			left:540px;
+			position:absolute;
+			
+			z-index: 12;
+			
+		}/*Box-B03*/
+		
+
+	/*右上角框架定義（Login）：C系*/
+		#Box-C01{
+			width: 300px;
+			height: 70px;
+			background-color: ;
+			
+			margin-left:-150px;
+			
+			padding-top:5px;
+			
+			top:0px;
+			left:90%;
+			position:absolute;
+			
+			z-index: 11;
+			
+		}/*Box-C01*/
+		
+		div.search {
+			padding:10px 0;
+		}
+		form {
+			position:relative;
+			width:300px;
+			margin:0 auto;
+		}
+		input,button {
+			border:none;
+			outline:none;
+		}
+		input {
+			width:100%;
+			height:42px;
+			padding-left:13px;
+		}
+		button {
+			height:42px;
+			width:42px;
+			cursor:pointer;
+			position:absolute;
+		}
+		/*搜索框6*/
+			 
+		.bar6 input {
+			background:transparent;
+			
+			border:2px solid rgb(111,157,53);
+			border-radius:5px;
+			
+			top:0;
+			right:0;
+
+		}
+		
+		.bar6 button {
+			width:60px;
+			background:rgb(111,157,53);
+			
+			border-radius:0 5px 5px 0;
+			
+			top:0;
+			right:0;
+
+		}
+		
+		.bar6 button:before {
+			content:"搜尋";
+			font-size:13px;
+			color:#FFF;
+		}/*字-定義*/
+		
+		
+/*Box-Functions--------------------------------------------------------*/
+/* D系*/	
+	.Box-Functions{
+		width: 100%;
+		height: 110px;
+		background-color:;
+		
+		top: 70px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A02*/
+		
+	/*functions框架定義：D系*/
+		.Box-D-z_index12-Style{
+			
+			width: 180px;
+			height: 110px;
+			background-color:;
+			
+			z-index: 12;
+			
+		}/*Box-D00*/
+			
+		#Box-D01{
+			
+			width: 1500px;
+			height: 110px;
+			background-color:;
+			
+			margin: 0px -750px;
+			
+			left: 50%;
+			position: absolute;
+			
+			z-index: 11;
+			
+			
+		}/*Box-D01*/	
+	
+		#Box-D02{
+			
+			top: 0px;
+			left: 5%;
+			position: absolute;	
+			
+		}/*Box-D02*/
+
+		#Box-D03{
+			
+			top: 0px;
+			left: 20%;
+			position: absolute;	
+			
+		}/*Box-D03*/
+
+		#Box-D04{
+			
+			top: 0px;
+			left: 35%;
+			position: absolute;	
+			
+		}/*Box-D04*/
+		
+		#Box-D05{
+			
+			top: 0px;
+			left: 50%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+		
+		#Box-D06{
+			
+			top: 0px;
+			left: 65%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+		
+		#Box-D07{
+			
+			top: 0px;
+			left: 80%;
+			position: absolute;	
+			
+		}/*Box-D05*/
+	
+/*Box-mainContent_home-1--------------------------------------------------------*/	
+	.Box-mainContent_home-1{
+		width: 100%;
+		height: 698px;
+		background-color: #00ffff;
+		
+		top: 180px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A03  //banner上方*/
+	
+	/*mainContent_home-1-Explore*/
+		.Box-mainContent_home-1_Explore{
+			width: 100%;
+			height: 1500px;
+			background-color:;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+			
+		}/*mainContent_home-1-Explore*/
+			
+		.Box-Explore{
+			width: 1200px;
+			height: 1500px;
+			background-color: #FFF;
+			
+			opacity:0.8;
+			
+			margin:0px -600px;
+			
+			top:0px;
+			left:50%;
+			position:absolute;
+			
+			z-index: 11;
+		}/*框架*/
+		
+		.Box-Explore_Content-Top{
+			width: 1150px;
+			height: 170px;
+			background-color:;
+			
+			top: 15px;
+			left: 25px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}/*上 Logo*/
+		
+		.Box-Explore_Content-Top_Logo01{
+			top: 100px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+		
+		}/*Logo:植物分隔條*/
+		
+		/*Title：探索台灣標題*/
+		.Box-Title-Explore-01{
+			width: 500px;
+			height: 200px;
+			background-color:;
+			
+			top: -20px;
+			left: 50px;
+			position: absolute;
+			
+			z-index: 12;
+			
+		}/*Title-框架*/
+		
+		.Box-Logo-Explore-01{
+			width: 1200px;
+			height: 150px;
+			
+			top: 190px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 11;
+			
+		}/*Logo:長矛*/
+		
+		/*木板Function*/	
+		#Box-Logo-Explore02-01{
+			top: 320px;			
+		}/*Logo:01*/
+		
+		#Box-Logo-Explore02-02{
+			top: 482px;	
+		}/*Logo:02*/
+		
+		#Box-Logo-Explore02-03{
+			top: 644px;	
+		}/*Logo:03*/
+		
+		#Box-Logo-Explore02-04{
+			top: 806px;	
+		}/*Logo:04*/
+		
+		#Box-Logo-Explore02-05{
+			top: 968px;	
+		}/*Logo:05*/
+		
+		/*Logo:大樹背景*/
+		.Box-Logo-Explore-02{
+			width: 900px;
+			height: 740px;
+			
+			top: 350px;
+			left: 300px;
+			position: absolute;
+			
+			z-index: 11;
+		}
+	
+	/*mainContent_home-1-News*/
+		.Box-mainContent_home-1_News{
+			width: 100%;
+			height: 1000px;
+			background-color: ;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+			
+		}
+		
+		.Box-Logo-v1_1-Style{
+			width: 60px;
+			height: 750px;
+			background-color:;
+			
+			top: 200px;
+			left: 590px;
+			position: absolute;
+			
+			z-index: 10;
+		}/*時鐘Logo*/
+	
+		#Box-Logo-v1_1-01{			
+			left:0;
+			top:45px;
+			position:absolute;	
+		}
+		#Box-Logo-v1_1-02{			
+			left:0;
+			top:165px;
+			position:absolute;	
+		}
+		
+		#Box-News_Style{
+			width:900px;
+			height:740px;
+			background-color:;
+			
+			left:600px;
+			top:200px;
+			position:absolute;
+		}
+		
+		#Box-News_01{			
+			left:45px;
+			top:0px;
+			position:absolute;	
+		}
+		
+		#Box-News_02{			
+			left:45px;
+			top:120px;
+			position:absolute;	
+		}
+		
+		#Box-News_03{			
+			left:45px;
+			top:240px;
+			position:absolute;	
+		}
+		
+		#Box-News_04{			
+			left:45px;
+			top:360px;
+			position:absolute;	
+		}
+		
+		#Box-News_05{			
+			left:45px;
+			top:480px;
+			position:absolute;	
+		}
+		
+		#Box-News_06{			
+			left:45px;
+			top:600px;
+			position:absolute;	
+		}
+	
+	/*mainContent_home-1-EthnicGroup*/
+	
+		.Box-mainContent_home-1_EthnicGroup{
+			width: 100%;
+			height: 1500px;
+			background-color: ;
+			
+			top: 180px;
+			left: 0px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}/*mainContent_home-1-EthnicGroup*/
+		
+		.Box-EthnicGroup{
+			width: 1200px;
+			height: 1500px;
+			background-color: rgb(250,250,250);
+			
+			opacity:0.8;
+			
+			margin:0px -600px;
+			
+			top:0px;
+			left:50%;
+			position:absolute;
+			
+			z-index: 11;
+		}/*框架*/
+		
+		/*EthnicGroup 首頁Style*/
+			.Box-EthnicGroup_Home-BG{
+				top:200px;
+				left:150px;
+				position:absolute;
 				
-			var fullpage_scroll=false;
-			if(fullpage_scroll){
-				setInterval(function(){
-					$.fn.fullpage.moveSectionDown();
-				},6000)
+			}/*大樹BG*/
+			
+			#Box-EthnicGroup_Home-Name00{
+				top:200px;
+				left:820px;
+				position:absolute;
+				
+			}/*族群名稱00*/
+			
+			#Box-EthnicGroup_Home-Name01{
+				top:320px;
+				left:930px;
+				position:absolute;
+				
+			}/*族群名稱01*/
+			
+			#Box-EthnicGroup_Home-Name02{
+				top:450px;
+				left:900px;
+				position:absolute;
+				
+			}/*族群名稱02*/
+			
+			#Box-EthnicGroup_Home-Name03{
+				top:560px;
+				left:790px;
+				position:absolute;
+				
+			}/*族群名稱03*/
+			
+			#Box-EthnicGroup_Home-Name04{
+				top:700px;
+				left:760px;
+				position:absolute;
+				
+			}/*族群名稱04*/
+			
+			#Box-EthnicGroup_Home-Name05{
+				top:280px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱05*/
+			
+			#Box-EthnicGroup_Home-Name06{
+				top:400px;
+				left:550px;
+				position:absolute;
+				
+			}/*族群名稱06*/
+			
+			#Box-EthnicGroup_Home-Name07{
+				top:550px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱07*/
+			
+			#Box-EthnicGroup_Home-Name08{
+				top:700px;
+				left:550px;
+				position:absolute;
+				
+			}/*族群名稱08*/
+			
+			#Box-EthnicGroup_Home-Name09{
+				top:900px;
+				left:800px;
+				position:absolute;
+				
+			}/*族群名稱09*/
+			
+			#Box-EthnicGroup_Home-Name10{
+				top:600px;
+				left:400px;
+				position:absolute;
+				
+			}/*族群名稱10*/
+			
+			#Box-EthnicGroup_Home-Name11{
+				top:700px;
+				left:200px;
+				position:absolute;
+				
+			}/*族群名稱11*/
+			
+			#Box-EthnicGroup_Home-Name12{
+				top:800px;
+				left:380px;
+				position:absolute;
+				
+			}/*族群名稱12*/
+			
+			#Box-EthnicGroup_Home-Name13{
+				top:860px;
+				left:200px;
+				position:absolute;
+				
+			}/*族群名稱13*/
+			
+			#Box-EthnicGroup_Home-Name14{
+				top:400px;
+				left:300px;
+				position:absolute;
+				
+			}/*族群名稱14*/
+			
+			#Box-EthnicGroup_Home-Name15{
+				top:950px;
+				left:420px;
+				position:absolute;
+				
+			}/*族群名稱15*/
+			
+			#Box-EthnicGroup_Home-Name16{
+				top:820px;
+				left:600px;
+				position:absolute;
+				
+			}/*族群名稱16*/
+			
+			#Box-EthnicGroup_Home-Name17{
+				top:480px;
+				left:330px;
+				position:absolute;
+				
+			}/*族群名稱00*/
+			
+		
+		.Box-EthnicGroup-Top{
+			width: 1150px;
+			height: 170px;
+			background-color: ;
+			
+			top: 15px;
+			left: 25px;
+			position: absolute;
+			
+			z-index: 10;
+		
+		}
+		
+		.Box-EthnicGroup-Content{
+			width: 900px;
+			height: 1300px;
+			background-color:;
+			
+			top:200px;
+			left:270px;
+			position:absolute;
+		}
+		
+		.Box-EthnicGroup-TitleLine{
+			width: 900px;
+			height: 3px;
+			background-color: rgb(162,195,120);
+			
+			top:100px;
+			left:0px;
+			position:absolute;
+		}/*題目分隔線*/
+		
+		.Box-EthnicGroup-Content_Title{
+			width: 700px;
+			height: 80px;
+			background-color: ;
+			
+			top:10px;
+			left:150px;
+			position:absolute;
+		}/*題目*/
+		
+		.Box-EthnicGroup-Content_UnderLine{
+			width: 825px;
+			height: 1100px;
+			background-color: ;
+			
+			top:150px;
+			left:50px;
+			position:absolute;
+			
+			z-index:12;
+		}/*內容框——題目分割線下的部分*/
+		
+		
+	/*EthnicGroup-圖片*/
+		#Box-EthnicGroup-Content_01v1_1{		
+			padding: 20px 20px 60px 20px;
+			float: left;
+		}
+		#Box-EthnicGroup-Content_01v1_1-Explain{		
+			width: 450px;
+			height: 50px;
+			background-color: ;
+			
+			top:330px;
+			left:20px;
+			position:absolute;
+			
+			z-index:13;
+		}/*圖片來源-01*/
+		
+		
+	/*圖片-END*/
+	
+		/*EthnicGroup-Functions*/	
+		.Box-EthnicGroup-Functions{
+			width: 250px;
+			height: 1300px;
+			background-color:;
+			
+			top:200px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 11;
+		}
+		
+		.Box-EthnicGroup-Title{
+			width: 250px;
+			height: 120px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index: 12;
+		}
+		
+		.Box-EthnicGroup-BG{
+			width: 150px;
+			height: 430px;
+			background-color: rgb(246,241,148);
+			
+			border-top-right-radius:30px;
+			border-top-left-radius:10px;
+			border-bottom-right-radius:10px;
+			border-bottom-left-radius:10px;
+			
+			top:120px;
+			left:30px;
+			position:absolute;
+			
+			z-index: 3;
+		}
+		
+		#Box-EthnicGroup-01{
+			left:40px;
+			top:150px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-02{
+			left:40px;
+			top:210px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-03{
+			left:40px;
+			top:270px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-04{
+			left:40px;
+			top:330px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-05{
+			left:40px;
+			top:390px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-06{
+			left:40px;
+			top:450px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-07{
+			left:40px;
+			top:510px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-08{
+			left:40px;
+			top:570px;
+			position:absolute;
+		}
+		
+		#Box-EthnicGroup-09{
+			left:40px;
+			top:630px;
+			position:absolute;
+		}
+	
+	/*mainContent_home-1-Calendar*/
+		
+		.Box-Calendar-Style{
+			width:1499px;
+			height:1122px;
+			
+			background-color:red;
+			
+			top:250px;
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+		.Box-Calendar-BG{
+			width:375px;
+			height:374px;
+			
+			background-image:url(../img/Calendar/Calendar-v1_1.png);
+			background-size:375px 374px;
+			background-repeat:no-repeat;
+		}/*日曆背景圖*/
+				
+			#Box-Calendar-BG_1{
+				top:0px;
+				left:0px;
+				position:absolute;
 			}
 			
-			$.fullpageopen = '打開';
-			$.fullpagecolse = '關閉';
-			
-		});
-	</script><!--滾筒function-->
-	
-		<link href="http://travel-441.view.sitestar.cn/135eb9f69249012c8f7700a1d16485a9.cssx" rel="stylesheet" />
-		<div id="page_set_css"></div>
-		
-		<input type="hidden" id="page_id" name="page_id" value="72" rpid="72">
-		<div id="scroll_container" class="scroll_contain" style="">
-		<div	id="scroll_container_bg"
-		
-				style="	has_sitebg:1;
-						background-image:url('plugin/new_navigation/view/images/png_bg.png');
-						background-repeat:repeat;
-						background-position:bottom center;
-						background-color:;
-						background-attachment:scroll;" >&nbsp;</div>
-		
-	<script>
-		initScrollcontainerHeight();	
-	</script>
-	
-		 <div id="overflow_canvas_container">	
-		 
-		 <div 	id="canvas" 
-				style=" margin: 0 auto;
-						width:1200px;
-						has_pagebg:0;
-						background-repeat:repeat;
-						background-attachment:scroll;
-						height:910px">
-		
-		<div id="layerA4F8F3B5F5A84575207A8673A8C59DC9" class="fullpage_alllist">
-		
-		<div 	class="section fullpagesection" 
-				style="	left:-150px;
-						width:1280px;">
-												
-		<div class="bg">
-			<img 	name="fullimg"
-					class="fullimgc" 
-					src="http://tpl-c182c84.pic31.websiteonline.cn/upload/b1.jpg" 
-					alt="啟程"><!-- 第一頁_背景圖（1920*960）-->
-		</div>
-		
-		<div  	id="layerA4F8F3B5F5A84575207A8673A8C59DC9_1" 
-				class="full_pagescroll"   
-				style="left:150px;width:1200px;position:absolute;top:0px;height:3796px;z-index:100;">	
-				
-		<div 	class="full_width" 
-				style="position:absolute;height:3796px;;">
-		</div>
-				
-		<div 	class="full_content" 
-				style="width:1200px; position:absolute;left:0;top:0;margin-left: 0px;;height:3796px;">
-				
-		<div	id='layer9C8609782C8D782AF2D36CC05D983C97' 
-				type='title'  
-				class='cstlayer' 
-				style='	left: 595px;
-						top: 256px;
-						position: absolute;
-						z-index: 109;
-						width: 57px;
-						height: 50px;
-						display: block;
-						display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'
-						deg='0'>
-						
-			<div 	class="wp-title_content" 
-					style="	word-wrap: break-word;
-							padding: 0px;
-							border: 0px solid transparent;
-							height: 50px;
-							width: 57px;
-							display: block;"><p></p>
-<!-- 首頁第一個字 -->
-							<p style="text-align: center;">
-								<span style="	color: rgb(255, 255, 255);
-												font-size: 48px;
-												line-height: 100%;">心</span>
-							</p>
-							
-							<p style="text-align: center;"><br></p>
-							<p></p>
-			</div>
-			
-			<script type="text/javascript">
-				$(function(){
-					$('.wp-title_content').each(function(){
-						if($(this).find('div').attr('align')=='justify'){
-							$(this).find('div').css({
-								'text-justify':'inter-ideograph','text-align':'justify'
-							});
-						}
-					})	
-				})
-			</script>
-	
-		</div>
-	
-	<script>
-		$('#layer9C8609782C8D782AF2D36CC05D983C97').data('wopop_effects',{"effect":"fadeFromTop","delay":0,"duration":1.5,"loop":0,"loop_infinite":"0"});		       
-		$('#layer9C8609782C8D782AF2D36CC05D983C97').triggerHandler('layer_ready');
-	</script>
-	
-	<div	id='layerE7F35D1338BA71E609AC56347C2057F4' 
-			type='line'  
-			class='cstlayer' 
-			style='	left: 505px;
-					top: 398px; 
-					position: absolute; 
-					z-index: 101; 
-					width: 10px; 
-					height: 152px; 
-					display: block;
-					display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-			
-		<div 	class="wp-line_content" 
-				style="	padding: 0px;
-						border-color: transparent;
-						border-width: 0px;
-						overflow: hidden;
-						width: 10px;
-						height: 152px;
-						border-style: solid;">
-							
-			<div class="wpline-wrapper vertical-solid"></div>
-			
-			<script language="javascript">
-			</script>
-			
-		</div>
-	</div>
-		
-	<script>		         
-		$('#layerE7F35D1338BA71E609AC56347C2057F4').data('wopop_effects',{"effect":"fadeFromLeft","delay":0,"duration":1.2,"loop":0,"loop_infinite":"0"});	
-		$('#layerE7F35D1338BA71E609AC56347C2057F4').triggerHandler('layer_ready');	
-	</script>
-	
-	<div 	id='layer7A233DA7A5C30D22C0A597EF2161C313' 
-			type='line'  
-			class='cstlayer' 
-			style='	left: 672px; 
-					top: 240px;
-					position: absolute;
-					z-index: 105;
-					width: 10px;
-					height: 152px;
-					display: block;
-					display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-		<div 	class="wp-line_content"
-				style="	padding: 0px;
-						border-color: transparent;
-						border-width: 0px;
-						overflow: hidden;
-						width: 10px;
-						height: 152px;
-						border-style: solid;">
-						
-			<div class="wpline-wrapper vertical-solid"></div>
-			
-			<script language="javascript">
-			</script>
-		</div>
-	</div>
-	
-	
-	<script>		       
-		$('#layer7A233DA7A5C30D22C0A597EF2161C313').data('wopop_effects',{"effect":"fadeFromRight","delay":0,"duration":1.2,"loop":0,"loop_infinite":"0"});		       
-		$('#layer7A233DA7A5C30D22C0A597EF2161C313').triggerHandler('layer_ready');
-	</script>
-	
-	<div	id='layer926747A81795767DEE091BD5314107DE' 
-			type='title'  
-			class='cstlayer' 
-			style='	left: 
-					595px;
-					top: 305px;
-					position: absolute;
-					z-index: 116;
-					width: 57px;
-					height: 50px;
-					display: block;
-					display:none;'  
-					mid=""
-					fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'
-					deg='0'>
-					
-		<div 	class="wp-title_content" 
-				style="	word-wrap: break-word;
-						padding: 0px;
-						border: 0px solid transparent;
-						height: 50px;
-						width: 57px;
-						display: block;">
-						
-						<p></p>
-						
-						<p style="text-align: center;">
-							<span style="	color: rgb(255, 255, 255);
-											font-size: 48px;
-											line-height: 100%;">之</span>
-						</p>
-						
-						<p style="text-align: center;"><br></p>
-						<p></p>
-		</div>
-	</div>
-	
-	<script>		       
-		$('#layer926747A81795767DEE091BD5314107DE').data('wopop_effects',{"effect":"fadeFromTop","delay":0.5,"duration":1.5,"loop":0,"loop_infinite":"0"});	
-		$('#layer926747A81795767DEE091BD5314107DE').triggerHandler('layer_ready');
-	</script>
-	
-	<div	id='layer6268C051BD2AB763B40F9F524684CA83'
-			type='media'
-			class='cstlayer'
-			style='	left: 637px; 
-					top: 465px;
-					position: absolute;
-					z-index: 112;
-					width: 24px;
-					height: 34px;
-					display: block;
-					display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'><!--水印座標 & 大小-->
-					
-		<script>
-			create_pc_media_set_pic('layer6268C051BD2AB763B40F9F524684CA83',false);
-		</script>
-			
-		<div 	class="wp-media_content"  
-				style="	overflow: hidden;
-						width: 24px;
-						height: 34px;" 
-				type="0">
-				
-			<div 	class="img_over"  
-					style='	overflow: hidden;
-							border-color: transparent;
-							border-width: 0px;
-							position: relative;
-							width: 24px;
-							height: 34px;'>
-
-				<div	 class="imgloading" 
-						style="z-index:100;"> 
-				</div>
-							
-				<img 	onerror="set_thumb_layer6268C051BD2AB763B40F9F524684CA83(this);" 
-						onload="set_thumb_layer6268C051BD2AB763B40F9F524684CA83(this);" 
-						id="wp-media-image_layer6268C051BD2AB763B40F9F524684CA83"  
-						src="http://tpl-c182c84.pic31.websiteonline.cn/upload/yz.png" 
-						type="zoom" 
-						class="paragraph_image"  
-						style="	width: 24px;
-								height: 34px;
-								display:none;" /><!--第一頁紅色水印背景-->
-			</div>
-
-		</div>
-		
-		<script>
-			(function(){
-				layer_media_init_func('layer6268C051BD2AB763B40F9F524684CA83');
-			})()
-		</script>
-		
-	</div>
-	
-	<script>		       
-		$('#layer6268C051BD2AB763B40F9F524684CA83').data('wopop_effects',{"effect":"fade","delay":1,"duration":2,"loop":0,"loop_infinite":"0"});		
-		$('#layer6268C051BD2AB763B40F9F524684CA83').data('wopop_imgeffects',{"effect":"effect.noeffect","effectrole":"dantu","duration":"350","type":"media","delay":0,"loop":0,"loop_infinite":0});	
-		$('#layer6268C051BD2AB763B40F9F524684CA83').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerB81D8D325850BF8F2E7703E273AB099F' 
-			type='media'  
-			class='cstlayer' 
-			style='	left: 640px;
-					top: 476px;
-					position: absolute;
-					z-index: 115;
-					width: 17px;
-					height: 12px;
-					display: block;
-					display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'  
-			deg='0'><!--水印字座標 & 大小-->
-			
-		<script>
-			create_pc_media_set_pic('layerB81D8D325850BF8F2E7703E273AB099F',false);
-		</script>
-		
-		<div 	class="wp-media_content"  
-				style="overflow: hidden; width: 17px; height: 12px;" 
-				type="0">
-		
-			<div class="img_over"  style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 17px; height: 12px;'>
-				<div class="imgloading" style="z-index:100;"> </div>
-				<img 	onerror="set_thumb_layerB81D8D325850BF8F2E7703E273AB099F(this);" 
-						onload="set_thumb_layerB81D8D325850BF8F2E7703E273AB099F(this);" 
-						id="wp-media-image_layerB81D8D325850BF8F2E7703E273AB099F"  
-						src="http://tpl-c182c84.pic31.websiteonline.cn/upload/l.png" 
-						type="zoom" 
-						class="paragraph_image"  
-						style="width: 17px; height: 12px;;display:none;" /><!--水印字（單字）_圖片（17*12.png）-->
-			</div>
-
-		</div>
-		
-		<script>
-			(function(){
-				layer_media_init_func('layerB81D8D325850BF8F2E7703E273AB099F');
-			})()
-		</script>
-		
-	</div>
-	
-<!-- 分隔************************************************************************************************************************************* -->	
-	<script>		
-		$('#layerB81D8D325850BF8F2E7703E273AB099F').data('wopop_effects',{"effect":"fade","delay":1,"duration":2,"loop":0,"loop_infinite":"0"});		 
-        $('#layerB81D8D325850BF8F2E7703E273AB099F').triggerHandler('layer_ready');
-	</script>
-	
-	<div	id='layerE4FF2AB0926E90C048C9398D84D0851D' 
-			type='title'  
-			class='cstlayer' 
-			style='	left: 595px;
-					top: 353px;
-					position: absolute;
-					z-index: 118;
-					width: 57px;
-					height: 50px;
-					display: block;
-					display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'><!--座標 & 大小-->
-			
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-			<p></p>
-			<p style="text-align: center;"><span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">所</span></p>
-			<p style="text-align: center;"><br></p>
-			<p></p>
-		</div>
-		
-	</div>
-	
-	<script>		    
-		$('#layerE4FF2AB0926E90C048C9398D84D0851D').data('wopop_effects',{"effect":"fadeFromTop","delay":1,"duration":1.5,"loop":0,"loop_infinite":"0"});		  
-		$('#layerE4FF2AB0926E90C048C9398D84D0851D').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer8BF707C9CA6F896561D3FE9C08CA9EA0' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 595px; top: 401px; position: absolute; z-index: 120; width: 57px; height: 50px; display: block;display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-			
-			<div 	class="wp-title_content" 
-					style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-					<p></p>
-					<p style="text-align: center;"><span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">嚮</span></p>
-					<p style="text-align: center;"><br></p>
-					<p></p>
-			</div>
-	</div>
-	
-	
-		
-<!--  ------------------------------------------------------------------------------------  -->	
-	
-	
-	<script>		    
-		$('#layer8BF707C9CA6F896561D3FE9C08CA9EA0').data('wopop_effects',{"effect":"fadeFromTop","delay":1.5,"duration":1.5,"loop":0,"loop_infinite":"0"});		
-		$('#layer8BF707C9CA6F896561D3FE9C08CA9EA0').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerCB217FCC0E0757694355913F027EFF4A' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 531px; top: 380px; position: absolute; z-index: 121; width: 57px; height: 50px; display: block;display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-			
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-				
-				<p></p>
-				<p style="text-align: center;">
-					<span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">之</span>
-				</p>
-				<p style="text-align: center;"><br></p>
-				<p></p>
-		</div>
-		
-	</div>
-	
-	<script>
-		$('#layerCB217FCC0E0757694355913F027EFF4A').data('wopop_effects',{"effect":"fadeFromTop","delay":2.5,"duration":1.5,"loop":0,"loop_infinite":"0"});		
-		$('#layerCB217FCC0E0757694355913F027EFF4A').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer750E1E877B36A8355DFE88C9792B4933' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 531px; top: 428px; position: absolute; z-index: 122; width: 57px; height: 50px; display: block;display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-			<p></p>
-			<p style="text-align: center;">
-				<span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">所</span>
-			</p>
-			<p style="text-align: center;"><br></p>
-			<p></p>
-		</div>
-	</div>
-	
-	<script>
-		$('#layer750E1E877B36A8355DFE88C9792B4933').data('wopop_effects',{"effect":"fadeFromTop","delay":3,"duration":1.5,"loop":0,"loop_infinite":"0"});	
-		$('#layer750E1E877B36A8355DFE88C9792B4933').triggerHandler('layer_ready');
-	</script>
-	
-		<div 	id='layer276BAB7592BF988AFC3A54FF350EFC8A' 
-				type='title'  
-				class='cstlayer' 
-				style='left: 531px; top: 476px; position: absolute; z-index: 125; width: 57px; height: 50px; display: block;display:none;'  
-				mid=""  
-				fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-				deg='0'>
-			<div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-				<p></p>
-				<p style="text-align: center;">
-					<span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">往</span>
-				</p>
-				<p style="text-align: center;"><br></p>
-				<p></p>
-			</div>
-		</div>
-	
-	<script>		   
-		$('#layer276BAB7592BF988AFC3A54FF350EFC8A').data('wopop_effects',{"effect":"fadeFromTop","delay":3.5,"duration":1.5,"loop":0,"loop_infinite":"0"});		  
-		$('#layer276BAB7592BF988AFC3A54FF350EFC8A').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer168AA573F7D6F82FF7DE3C0FFC9496D8' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 530px; top: 330px; position: absolute; z-index: 128; width: 57px; height: 50px; display: block;display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 50px; width: 57px; display: block;">
-			<p></p>
-			<p style="text-align: center;">
-				<span style="color: rgb(255, 255, 255); font-size: 48px; line-height: 100%;">身</span>
-			</p>
-			<p style="text-align: center;"><br></p>
-			<p></p>
-		</div>
-	</div>
-	
-	<script>	
-		$('#layer168AA573F7D6F82FF7DE3C0FFC9496D8').data('wopop_effects',{"effect":"fadeFromTop","delay":2,"duration":1.5,"loop":0,"loop_infinite":"0"});		   
-		$('#layer168AA573F7D6F82FF7DE3C0FFC9496D8').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerA4FA6C773C99606C08C37175021B2C02' 
-			type='buttons'  
-			class='cstlayer' 
-			style='left: 550px; top: 600px; position: absolute; z-index: 131; width: 100px; height: 36px; transform: rotate(0deg); display: block;display:none;'  
-			mid=""  
-			fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_1'   
-			deg='0'>
-			
-		<div 	class="wp-buttons_content" 
-				style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 100px; height: 36px; border-style: solid;">
-				
-			<a 	href="C:\Users\16649\Desktop\Web-Project\home.html" 
-				class="btnarea button_btndefault-link" 
-				style="width:98px;left:0px;top:0px;height:34px;line-height:34px;" 
-				target="_blank">
-				<span class="button_btndefault-label">啟程</span>
-			</a>
-		
-			<script language="javascript">
-				$('#layerA4FA6C773C99606C08C37175021B2C02').layer_ready(function(){});
-			</script>
-			
-		</div>
-		
-	</div>
-	
-	<script>		 
-		$('#layerA4FA6C773C99606C08C37175021B2C02').data('wopop_effects',{"effect":"fade","delay":3,"duration":1.5,"loop":0,"loop_infinite":"0"});		    
-		$('#layerA4FA6C773C99606C08C37175021B2C02').triggerHandler('layer_ready');
-	</script>
-	
-	</div>
-	</div>
-	</div>
-	
-	
-<!--第二頁開始-->	
-	<div class="section fullpagesection" style="left:-150px;width:1280px;">
-		<div class="bg">
-			<img name="fullimg" class="fullimgc" src="http://tpl-c182c84.pic31.websiteonline.cn/upload/2_e76i.jpg" alt="文化氣息"><!--第三頁_背景圖（1920*960）-->
-		</div>
-		<div  id="layerA4F8F3B5F5A84575207A8673A8C59DC9_2" class="full_pagescroll"   style="left:150px;width:1200px;position:absolute;top:0px;height:3796px;z-index:100;">	
-			<div class="full_width" style="position:absolute;height:3796px;;"></div>
-			<div class="full_content" style="width:1200px; position:absolute;left:0;top:0;margin-left: 0px;;height:3796px;">
-			
-			
-			<!--分隔*************************************************************************************************************************************-->
-				<div 	id='layer30E92A3F0D1511138277FAF1CD9F0D3C' 
-						type='buttons'  
-						class='cstlayer' 
-						style='left: 320px; top: 590px; position: absolute; z-index: 117; width: 122px; height: 42px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-						
-					<div 	class="wp-buttons_content" 
-							style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 122px; height: 42px; border-style: solid;">
-							
-						<a 	href="http://travel-441.view.sitestar.cn/home.html" 
-							class="btnarea button_btndefault-link" 
-							style="width:120px;height:40px;line-height:40px;" 
-							target="_blank">
-							<span class="button_btndefault-label">點擊進入</span>
-						</a>
-	
-						<script language="javascript">
-							$('#layer30E92A3F0D1511138277FAF1CD9F0D3C').layer_ready(function(){});
-						</script>
-						
-					</div>
-					
-				</div>
-				
-				<script>		     
-					$('#layer30E92A3F0D1511138277FAF1CD9F0D3C').data('wopop_effects',{"effect":"fade","delay":1.5,"duration":0.9,"loop":0,"loop_infinite":"0"});	
-					$('#layer30E92A3F0D1511138277FAF1CD9F0D3C').triggerHandler('layer_ready');
-				</script>
-				
-			<!--分隔*************************************************************************************************************************************-->	
-				<div 	id='layerD74E9D664FF027C3750EE6CFE0E8F7D4' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 411px; top: 378px; position: absolute; z-index: 123; width: 16px; height: 32px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-						
-					<div 	class="wp-title_content"
-							style="	border-radius:3px;
-									-moz-border-radius:3px;
-									-webkit-border-radius:3px;
-									word-wrap: break-word;
-									padding: 0px;
-									border-color: transparent;
-									border-width: 0px;
-									height: 35px;
-									width: 18px;
-									display: block;
-									border-style: solid;
-									background-color: rgb(230, 0, 18);"><!--紅色背景 & 調整-->
-							
-							
-							<p style="line-height: 16.8px; text-align: center;">
-								<span style="	line-height: 14.4px;
-												font-family: 微软雅黑;
-												color: rgb(255, 255, 255);">文</span>
-							</p>
-							
-							<p style="line-height: 16.8px; text-align: center;">
-								<span style="	line-height: 14.4px;
-												font-family: 微软雅黑;
-												color: rgb(255, 255, 255);">化</span>
-							</p>
-					</div>
-					
-				</div>
-	
-				<script>		         
-					if($.browser.msie && $.browser.version < 9) 
-						$('#layerD74E9D664FF027C3750EE6CFE0E8F7D4').find('div:first').addClass('layer_content'); 	
-						$('#layerD74E9D664FF027C3750EE6CFE0E8F7D4').triggerHandler('layer_ready');
-				</script>
-				
-			<!--分隔*************************************************************************************************************************************-->	
-				<div 	id='layer7981D1C7A87408DCC00E885C0205DA47' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 889px; top: 378px; position: absolute; z-index: 126; width: 16px; height: 32px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-					<div 	class="wp-title_content" 
-							style="	border-radius:3px;
-									-moz-border-radius:3px;
-									-webkit-border-radius:3px; 
-									word-wrap: break-word; 
-									padding: 0px;
-									border-color: transparent;
-									border-width: 0px;
-									height: 35px;
-									width: 18px;
-									display: block;
-									border-style: solid;
-									background-color: rgb(230, 0, 18);"><!--紅色背景 & 調整-->
-						
-						<p style="text-align: center;">
-							<span style="	color: rgb(255, 255, 255);
-											font-family: 微软雅黑;">底蘊</span>
-						</p>
-					</div>
-					
-				</div>
-				
-				<script>		         
-					if($.browser.msie && $.browser.version < 9) 
-						$('#layer7981D1C7A87408DCC00E885C0205DA47').find('div:first').addClass('layer_content'); 		    
-						$('#layer7981D1C7A87408DCC00E885C0205DA47').triggerHandler('layer_ready');
-				</script>
-				
-			<!--分隔*************************************************************************************************************************************-->	
-				<div 	id='layer2C4668E2A330F29F2CA84AF91DEB0651' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 364px; top: 369px; position: absolute; z-index: 119; width: 36px; height: 133px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-				
-					<div 	class="wp-title_content" 
-							style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 133px; width: 36px; display: block;">
-						<p style="text-align: center;">
-							<font color="#ffffff" face="隶书">
-								<span style="font-size: 30px;">族群</span>
-							</font>
-						</p>
-						
-					</div>
-					
-				</div>
-				
-				<script>		        
-					$('#layer2C4668E2A330F29F2CA84AF91DEB0651').data('wopop_effects',{"effect":"fade","delay":0.5,"duration":1.2,"loop":0,"loop_infinite":"0"});		
-					$('#layer2C4668E2A330F29F2CA84AF91DEB0651').triggerHandler('layer_ready');
-				</script>
-			
-			<!--分隔*************************************************************************************************************************************-->			
-				<div 	id='layerE7F6BD1776EACD071B5704C4E2DB3D0B' 
-						type='buttons'  
-						class='cstlayer' 
-						style='left: 801px; top: 590px; position: absolute; z-index: 127; width: 122px; height: 42px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-					<div 	class="wp-buttons_content" 
-							style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 122px; height: 42px; border-style: solid;">
-							
-						<a 	href="http://travel-441.view.sitestar.cn/home.html" 
-							class="btnarea button_btndefault-link" 
-							style="width:120px;height:40px;line-height:40px;" 
-							target="_blank">		
-							<span class="button_btndefault-label">點擊進入</span>
-						</a>	
-							
-						<script language="javascript">
-							$('#layerE7F6BD1776EACD071B5704C4E2DB3D0B').layer_ready(function(){});
-						</script>
-						
-					</div>
-					
-				</div>
-			
-				<script>		       
-					$('#layerE7F6BD1776EACD071B5704C4E2DB3D0B').data('wopop_effects',{"effect":"fade","delay":2,"duration":0.9,"loop":0,"loop_infinite":"0"});	
-					$('#layerE7F6BD1776EACD071B5704C4E2DB3D0B').triggerHandler('layer_ready');
-				</script>
-				
-			<!--分隔*************************************************************************************************************************************-->
-				<div 	id='layer5FD49D8FA8D2D15E88FCC5F79CA1BC86' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 844px; top: 369px; position: absolute; z-index: 124; width: 36px; height: 133px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_2'   
-						deg='0'>
-						
-					<div 	class="wp-title_content" 
-							style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 133px; width: 36px; display: block;">
-							
-						<p style="text-align: center;">
-							<font color="#ffffff" face="隶书"><span style="font-size: 30px;">部</span></font>
-						</p>
-						
-						<p style="color: rgb(90, 90, 90); font-family: Arial, 宋体, Helvetica, sans-serif, Verdana; font-size: 12px; text-align: center;">
-							<span style="font-size: 30px; color: rgb(255, 255, 255); font-family: 隶书; line-height: 140%;">落</span>
-						</p>
-						
-					</div>
-				
-				</div>
-				
-				<script>		     
-					$('#layer5FD49D8FA8D2D15E88FCC5F79CA1BC86').data('wopop_effects',{"effect":"fade","delay":1,"duration":1.2,"loop":0,"loop_infinite":"0"});		 
-					$('#layer5FD49D8FA8D2D15E88FCC5F79CA1BC86').triggerHandler('layer_ready');
-				</script> 
-
-			</div>
-		</div>
-	</div>
-	
-	
-<!--第三頁開始-->	
-	<div class="section fullpagesection" style="left:-150px;width:1280px;">
-	
-		<div class="bg"><img name="fullimg" class="fullimgc" src="http://tpl-c182c84.pic31.websiteonline.cn/upload/35440834_17_0grl.jpg" alt="記憶"></div>	
-		<div  	id="layerA4F8F3B5F5A84575207A8673A8C59DC9_3" 
-				class="full_pagescroll"   
-				style="left:150px;width:1200px;position:absolute;top:0px;height:3796px;z-index:100;">	
-				
-			<div class="full_width" style="position:absolute;height:3796px;;"></div>
-			<div class="full_content" style="width:1200px; position:absolute;left:0;top:0;margin-left: 0px;;height:3796px;">
-			
-				<div 	id='layer6BD7FA043168F67260FC5FE0330DB9F4' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 206px; top: 155px; position: absolute; z-index: 108; width: 600px; height: 600px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-					
-					<script>
-						create_pc_media_set_pic('layer6BD7FA043168F67260FC5FE0330DB9F4',false);
-					</script>
-						
-					<div class="wp-media_content"  style="overflow: hidden; width: 600px; height: 600px;" type="0">				
-						<div class="img_over"  style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 600px; height: 600px;'>
-							<div class="imgloading" style="z-index:100;"> </div>
-								<img 	id="wp-media-image_layer6BD7FA043168F67260FC5FE0330DB9F4" 
-										class="img_lazy_load paragraph_image"  data-original="http://tpl-c182c84.pic31.websiteonline.cn/upload/y.png" 
-										type="zoom" 
-										src="http://static.websiteonline.cn/website/template/default/images/blank.gif" 
-										style="width: 600px; height: 600px;;" />
-							
-						</div>
-					</div>
-						
-					<script>
-						(function(){
-							layer_media_init_func('layer6BD7FA043168F67260FC5FE0330DB9F4');
-						})()
-					</script>
-					
-				</div>
-		
-				<script>		   
-					$('#layer6BD7FA043168F67260FC5FE0330DB9F4').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layerBF939DCE5EE69B9876E99761E0EAD830' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 652px; top: 0px; position: absolute; z-index: 100; width: 322px; height: 910px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-					
-					<script>
-						create_pc_media_set_pic('layerBF939DCE5EE69B9876E99761E0EAD830',false);
-					</script>
-						
-					<div class="wp-media_content"  style="overflow: hidden; width: 322px; height: 910px;" type="0">
-						
-						<div class="img_over"  style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 322px; height: 910px;'>
-
-							<div class="imgloading" style="z-index:100;"> </div>
-								<img  	id="wp-media-image_layerBF939DCE5EE69B9876E99761E0EAD830" 
-										class="img_lazy_load paragraph_image"  data-original="http://tpl-c182c84.pic31.websiteonline.cn/upload/by.png" 
-										type="zoom" 
-										src="http://static.websiteonline.cn/website/template/default/images/blank.gif" 
-										style="width: 322px; height: 910px;;" />
-						
-						</div>
-
-					</div>
-					
-					<script>
-						(function(){
-							layer_media_init_func('layerBF939DCE5EE69B9876E99761E0EAD830');
-						})()
-					</script>
-					
-				</div>
-				
-				<script>		 
-					$('#layerBF939DCE5EE69B9876E99761E0EAD830').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layer6E79AD9C9DFB7F8123F6846A8FB0A990' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 790px; top: 72px; position: absolute; z-index: 102; width: 126px; height: 126px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-							
-					<script>
-						create_pc_media_set_pic('layer6E79AD9C9DFB7F8123F6846A8FB0A990',false);
-					</script>
-						
-					<div class="wp-media_content"  style="overflow: hidden; width: 126px; height: 126px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
-						
-						<div class="img_over"  style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 126px; height: 126px;'>
-
-							<div class="imgloading" style="z-index:100;"> </div>
-								
-							<a 	class="media_link" 
-								href="http://travel-441.view.sitestar.cn/home.html" 
-								target="_self">
-									
-								<img 	onerror="set_thumb_layer6E79AD9C9DFB7F8123F6846A8FB0A990(this);" 
-										onload="set_thumb_layer6E79AD9C9DFB7F8123F6846A8FB0A990(this);" 
-										id="wp-media-image_layer6E79AD9C9DFB7F8123F6846A8FB0A990"  
-										src="http://tpl-c182c84.pic31.websiteonline.cn/upload/01.png" 
-										type="zoom" 
-										class="paragraph_image"  
-										style="width: 126px; height: 126px;;display:none;" /><!--圓形圖片_第一張-->
-							</a>
-								
-						</div>
-
-					</div>
-						
-					<script>
-						(function(){
-							layer_media_init_func('layer6E79AD9C9DFB7F8123F6846A8FB0A990');
-						})()
-					</script>
-					
-				</div>
-					
-				<script>		 
-					$('#layer6E79AD9C9DFB7F8123F6846A8FB0A990').data('wopop_effects',{"effect":"callout.bounce","delay":0,"duration":1.2,"loop":0,"loop_infinite":"0"});	
-					$('#layer6E79AD9C9DFB7F8123F6846A8FB0A990').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layerE01F056A524A51891BEAAE8A8AC249C8' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 898px; top: 253px; position: absolute; z-index: 107; width: 112px; height: 112px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-					
-					<script>
-						create_pc_media_set_pic('layerE01F056A524A51891BEAAE8A8AC249C8',false);
-					</script>
-					
-					<div class="wp-media_content"  style="overflow: hidden; width: 112px; height: 112px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
-						
-						<div 	class="img_over"  
-								style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 112px; height: 112px;'>
-
-							<div class="imgloading" style="z-index:100;"> </div>
-								
-							<a 	class="media_link" 
-								href="http://travel-441.view.sitestar.cn/home.html" 
-								target="_self">
-								<img 	onerror="set_thumb_layerE01F056A524A51891BEAAE8A8AC249C8(this);" 
-										onload="set_thumb_layerE01F056A524A51891BEAAE8A8AC249C8(this);" 
-										id="wp-media-image_layerE01F056A524A51891BEAAE8A8AC249C8"  
-										src="http://tpl-c182c84.pic31.websiteonline.cn/upload/02.png" 
-										type="zoom" 
-										class="paragraph_image"  
-										style="width: 112px; height: 112px;;display:none;" /><!--圓形圖片_第二張-->
-							</a>
-						</div>
-
-					</div>
-					
-					<script>
-						(function(){
-							layer_media_init_func('layerE01F056A524A51891BEAAE8A8AC249C8');
-						})()
-					</script>
-					
-				</div>
-					
-				<script>		 
-					$('#layerE01F056A524A51891BEAAE8A8AC249C8').data('wopop_effects',{"effect":"callout.bounce","delay":0.5,"duration":1.2,"loop":0,"loop_infinite":"0"});	
-					$('#layerE01F056A524A51891BEAAE8A8AC249C8').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layer910141B15C73617BB26A62DFA6247128' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 930px; top: 444px; position: absolute; z-index: 106; width: 98px; height: 98px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-							
-					<script>
-						create_pc_media_set_pic('layer910141B15C73617BB26A62DFA6247128',false);
-					</script>
-					
-					<div 	class="wp-media_content"  
-							style="overflow: hidden; width: 98px; height: 98px; border-width: 0px; border-style: solid; padding: 0px;" 
-							type="0">
-					
-						<div	class="img_over"  
-								style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 98px; height: 98px;'>
-
-							<div class="imgloading" style="z-index:100;"> </div>
-							
-							<a class="media_link" href="http://travel-441.view.sitestar.cn/home.html" target="_self">
-								<img 	onerror="set_thumb_layer910141B15C73617BB26A62DFA6247128(this);" 
-										onload="set_thumb_layer910141B15C73617BB26A62DFA6247128(this);" 
-										id="wp-media-image_layer910141B15C73617BB26A62DFA6247128"  
-										src="http://tpl-c182c84.pic31.websiteonline.cn/upload/03.png" 
-										type="zoom" 
-										class="paragraph_image"  
-										style="width: 98px; height: 98px;;display:none;" /><!--圓形圖片_第三張-->
-							</a>
-							
-						</div>
-
-					</div>
-					
-					<script>
-						(function(){
-							layer_media_init_func('layer910141B15C73617BB26A62DFA6247128');	
-						})()
-					</script>
-					
-				</div>
-					
-				<script>		
-					$('#layer910141B15C73617BB26A62DFA6247128').data('wopop_effects',{"effect":"callout.bounce","delay":1,"duration":1.2,"loop":0,"loop_infinite":"0"});		
-					$('#layer910141B15C73617BB26A62DFA6247128').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layerDDB96761FC1A5B7B6F5BC56C6C37F694' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 893px; top: 619px; position: absolute; z-index: 103; width: 84px; height: 84px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-					
-					<script>
-						create_pc_media_set_pic('layerDDB96761FC1A5B7B6F5BC56C6C37F694',false);
-					</script>
-					
-					<div 	class="wp-media_content"  
-							style="overflow: hidden; width: 84px; height: 84px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
-					
-						<div 	class="img_over"  
-								style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 84px; height: 84px;'>
-						
-							<div class="imgloading" style="z-index:100;"> </div>
-							
-							<a class="media_link" href="http://travel-441.view.sitestar.cn/home.html" target="_self">
-								<img 	onerror="set_thumb_layerDDB96761FC1A5B7B6F5BC56C6C37F694(this);" 
-										onload="set_thumb_layerDDB96761FC1A5B7B6F5BC56C6C37F694(this);" 
-										id="wp-media-image_layerDDB96761FC1A5B7B6F5BC56C6C37F694"  
-										src="http://tpl-c182c84.pic31.websiteonline.cn/upload/04.png" 
-										type="zoom" 
-										class="paragraph_image"  
-										style="width: 84px; height: 84px;;display:none;" /><!--圓形圖片_第四張-->
-							</a>
-							
-						</div>
-
-					</div>
-					
-					<script>
-						(function(){
-							layer_media_init_func('layerDDB96761FC1A5B7B6F5BC56C6C37F694');
-						})()
-					</script>
-					
-				</div>
-					
-				<script>
-					$('#layerDDB96761FC1A5B7B6F5BC56C6C37F694').data('wopop_effects',{"effect":"callout.bounce","delay":1.5,"duration":1.2,"loop":0,"loop_infinite":"0"});		
-					$('#layerDDB96761FC1A5B7B6F5BC56C6C37F694').triggerHandler('layer_ready');
-				</script>
-					
-				<div 	id='layerFECA0DF3FBAEB8318BD555E848345891' 
-						type='media'  
-						class='cstlayer' 
-						style='left: 814px; top: 747px; position: absolute; z-index: 104; width: 70px; height: 70px; display: block;display:none;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-							
-					<script>
-						create_pc_media_set_pic('layerFECA0DF3FBAEB8318BD555E848345891',false);
-					</script>
-						
-					<div 	class="wp-media_content"  
-							style="overflow: hidden; width: 70px; height: 70px; border-width: 0px; border-style: solid; padding: 0px;" 
-							type="0">
-								
-						<div 	class="img_over"  
-									style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 70px; height: 70px;'>
-
-							<div class="imgloading" style="z-index:100;"> </div>	
-							<a class="media_link" href="http://travel-441.view.sitestar.cn/home.html" target="_self">
-								<img 	onerror="set_thumb_layerFECA0DF3FBAEB8318BD555E848345891(this);" 
-										onload="set_thumb_layerFECA0DF3FBAEB8318BD555E848345891(this);" 
-										id="wp-media-image_layerFECA0DF3FBAEB8318BD555E848345891"  
-										src="http://tpl-c182c84.pic31.websiteonline.cn/upload/05.png" 
-										type="zoom" 
-										class="paragraph_image"  
-										style="width: 70px; height: 70px;;display:none;" /><!--圓形圖片_第五張-->
-							</a>
-								
-						</div>
-
-					</div>
-						
-						
-					<script>
-						(function(){
-							layer_media_init_func('layerFECA0DF3FBAEB8318BD555E848345891');
-						})()
-					</script>
-					
-				</div>
-					
-				<script>		   
-					$('#layerFECA0DF3FBAEB8318BD555E848345891').data('wopop_effects',{"effect":"callout.bounce","delay":2,"duration":1.2,"loop":0,"loop_infinite":"0"});		
-					$('#layerFECA0DF3FBAEB8318BD555E848345891').triggerHandler('layer_ready');
-				</script>
-	
-				<div 	id='layer5C0BCBA76C6AAB6B6C4B4862B5E456B6' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 296px; top: 261px; position: absolute; z-index: 110; width: 420px; height: 35px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-							
-					<div 	class="wp-title_content" 
-							style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 35px; width: 420px; display: block; border-style: solid;">
-								
-						<div style="text-align: center;">
-						
-							<strong style="font-family: 微软雅黑; font-size: 22px;">
-								<span style="line-height: 140%; color: rgb(0, 0, 0);">title-Page 3 </span>
-							</strong>
-							
-						</div>
-						
-					</div>
-						
-				</div>
-				
-				<script>		         
-					$('#layer5C0BCBA76C6AAB6B6C4B4862B5E456B6').triggerHandler('layer_ready');
-				</script>
-	
-				<div 	id='layerCA684F6AD4BF5D735D1455AD8BE28B6D' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 298px; top: 332px; position: absolute; z-index: 111; width: 415px; height: 291px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-						
-					<div 	class="wp-title_content" 
-							style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 291px; width: 415px; display: block;">
-							
-						<div style="">
-							<span style="font-size: 14px; color: rgb(0, 0, 0); font-family: 微软雅黑; line-height: 200%;">
-								&nbsp; &nbsp; &nbsp;
-								 paragraph1
-							</span>
-						</div>
-						
-						<div style="">
-							<span style="font-size: 14px; color: rgb(0, 0, 0); font-family: 微软雅黑; line-height: 200%;">
-								&nbsp; &nbsp; &nbsp;
-								paragraph2
-							</span>	
-						</div>
-						
-						<div style="">
-							<span style="font-size: 14px; color: rgb(0, 0, 0); font-family: 微软雅黑; line-height: 200%;">
-								&nbsp; &nbsp; &nbsp;
-								paragraph3
-							</span>
-						</div>
-						
-					</div>
-					
-				</div>
-	
-				<script>		        
-					$('#layerCA684F6AD4BF5D735D1455AD8BE28B6D').triggerHandler('layer_ready');
-				</script>
-				
-				<div 	id='layerE851F762E4B6A3AD90F5219C1A4777AE' 
-						type='buttons'  
-						class='cstlayer' 
-						style='left: 456px; top: 641px; position: absolute; z-index: 113; width: 100px; height: 36px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-					<div 	class="wp-buttons_content" 
-							style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 100px; height: 36px; border-style: solid;">
-							
-						<a 	href="http://travel-441.view.sitestar.cn/Club.html" 
-							class="btnarea button_btndefault-link" 
-							style="width:98px;left:0px;top:0px;height:34px;line-height:34px;">
-							
-							<span class="button_btndefault-label">更多資訊</span>
-						</a>
-						
-						<script language="javascript">
-							$('#layerE851F762E4B6A3AD90F5219C1A4777AE').layer_ready(function(){});
-						</script>
-						
-					</div>
-					
-				</div>
-	
-				<script>	
-					$('#layerE851F762E4B6A3AD90F5219C1A4777AE').triggerHandler('layer_ready');
-				</script>
-				
-				<div 	id='layerF05E7E06C0EEA51AA78CAAAE1205B645' 
-						type='title'  
-						class='cstlayer' 
-						style='left: 377px; top: 300px; position: absolute; z-index: 114; width: 258px; height: 22px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_3'   
-						deg='0'>
-				
-					<div 	class="wp-title_content" 
-							style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 22px; width: 258px; display: block;">
-							
-						<div style="text-align: center;">
-							<span style="font-size: 14px; color: rgb(67, 67, 67);">Set Time</span>
-						</div>
-						
-					</div>
-					
-				</div>
-	
-	
-				<script>		    
-					$('#layerF05E7E06C0EEA51AA78CAAAE1205B645').triggerHandler('layer_ready');
-				</script>    
-	
-			</div>
-		</div>
-	</div>
-	
-	
-	
-	
-<!--第四頁開始-->	
-	<div class="section fullpagesection" style="left:-150px;width:1280px;">
-	
-		<div class="bg">
-			<img name="fullimg" class="fullimgc" src="http://tpl-c182c84.pic31.websiteonline.cn/upload/002_2pcv_meitu_1_ce5w.jpg" alt="联系"><!--第四頁背景圖__圖片（1920*1080.jpg）-->
-		</div>
-		
-		<div  	id="layerA4F8F3B5F5A84575207A8673A8C59DC9_4" 
-				class="full_pagescroll"   
-				style="left:150px;width:1200px;position:absolute;top:0px;height:3796px;z-index:100;">
-				
-			<div class="full_width" style="position:absolute;height:3796px;;"></div>
-			<div class="full_content" style="width:1200px; position:absolute;left:0;top:0;margin-left: 0px;;height:3796px;">
-				<div 	id='layer1CBE24D59921578C784654FBEE46F84B' 
-						type='box'  
-						class='cstlayer' 
-						style='left: 0px; top: 220px; position: absolute; z-index: 129; width: 1200px; height: 500px;'  
-						mid=""  
-						fatherid='layerA4F8F3B5F5A84575207A8673A8C59DC9_4'   
-						deg='0'>
-			
-					<div 	class="wp-box_content drop_box" 
-							style="word-wrap: break-word;
-							padding: 0px;
-							border-color: transparent;
-							border-width: 0px;
-							height: 500px;
-							background-color: transparent;
-							width: 1200px;
-							border-style: solid;
-							background-image: url('http://tpl-c182c84.pic31.websiteonline.cn/upload/blank60.png');"><!--第四頁_半透明長方形背景-->
-					
-						<div 	id='layer1C719F73FF2B2385348BE4F141EB2FCE' 
-								type='new_message_form'  
-								class='cstlayer' 
-								style='left: 470px; top: 174px; position: absolute; z-index: 10012; width: 464px; height: 254px;'  
-								mid=""  
-								fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-								deg='0'><!--第四頁_輸入表格-->
-						
-							<link 	href="http://static.websiteonline.cn/website/script/multiupload/uploadify2.css?v=15101110" 
-									rel="stylesheet" 
-									type="text/css" />
-							
-								<div 	class="wp-new_message_form_content" 
-										style="	border-color: transparent;
-												border-width: 0px;
-												overflow: hidden;
-												width: 464px;
-												height: 254px;
-												border-style: solid;
-												padding: 0px;">
-						
-									<style type="text/css">
-		
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .requiredtip {
-											display:inline;
-											position:absolute;
-											left:0;
-											top:0;
-											padding:2px 6px 5px;
-											background-color:#ffe2e2;
-											border:1px solid #fbc3c3;
-											color:#f00;
-											font-family:'微软雅黑';
-											font-size:12px;
-											line-height:140%;
-											text-align:center;
-											text-shadow:0 0 1px white;
-											white-space:nowrap;
-											-moz-border-radius:4px;
-											-webkit-border-radius:4px;
-											border-radius:4px;
-											z-index:1111;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .tipshadow,#layer1C719F73FF2B2385348BE4F141EB2FCE .pointytip {
-											border:6px dashed transparent;
-											border-bottom-style:solid;
-											border-bottom-color: #ffe2e2;
-											top:-12px;
-											height:0;
-											left:20%;
-											margin-left:4px;
-											position:absolute;
-											width:0;
-											overflow:hidden;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .tipshadow {
-											border-width:7px;
-											top:-14px;
-											margin-left:3px;
-											border-bottom-color:#fbc3c3;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields {float:left;}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields input,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields textarea {
-											font-family:'微软雅黑';
-											outline:none;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields li {
-											font-family:'微软雅黑';
-											float:left;
-											margin:7px 0;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE a.btnsubmit {
-											display:block;font-family:'微软雅黑';
-											float:left;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE img.captchapic {
-											cursor:pointer;
-											position:absolute;
-											left:0;
-											top:0;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE span.reqtip {
-											color:
-											#f00;
-											line-height:100%;
-											padding-left:3px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields li {
-											float:left;
-											width:100%;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .title {
-											padding:10px 0;
-											line-height:1.5;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inpbox {
-											float:left;
-											width:318px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext {
-											font-family: '微软雅黑';
-											color:#fff;
-											border:1px solid #36c8ff;
-											background-color:#6cc;
-											font-size:12px;
-											text-indent:15px;
-											height:38px;
-											line-height: 38px;
-											width:100%;
-											border-radius:50px;
-											-moz-border-radius:50px;
-											-webkit-border-radius:50px;
-											-o-border-radius:50px;
-											overflow: hidden;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext.datepicker {
-											background-color:#6cc;
-											background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/datepicker.png) !important;
-											background-position:right 10px center !important;background-repeat:no-repeat !important;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox {
-											background-color:#eee;
-											padding-left: 22px;
-											height:40px;
-											line-height:40px;
-											position: relative;
-											float:left;
-											padding-right: 8px;
-											margin-right:5px;
-											border-radius:50px;
-											-moz-border-radius:50px;
-											-webkit-border-radius:50px;
-											-o-border-radius: 50px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on {
-											background:#6cc;
-											color:#fff;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox label {
-											display:inline-block;
-											padding:0 10px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox input[type="radio"] {
-											box-sizing: border-box;
-											left: -1px;
-											margin: 3px;
-											padding: 0;
-											position: absolute;
-											top: 0px;vertical-align: middle;
-											opacity:0;
-											filter:alpha(opacity=0);
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox label.labelofradio:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox label.labelofradio .before {
-											content: " ";
-											background:url(http://static.websiteonline.cn/website/plugin/new_message_form/images/radio_bg.png) left center no-repeat;
-											height: 100%;
-											left: 10px;
-											width: 16px;
-											position: absolute;
-											position: absolute\0;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio {color:#fff;}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio .before {
-											content: " ";
-											background:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/radio_checkedbg.png) left center no-repeat;
-											color:#f7901d;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox {
-											background-color:#eee;
-											padding-left: 22px;
-											position: relative;
-											line-height:40px;
-											height:40px;
-											float:left;
-											margin-right:5px;
-											padding-right:8px;
-											border-radius:50px;
-											-moz-border-radius:50px;
-											-webkit-border-radius:50px;
-											-o-border-radius: 50px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on {
-											background: #6cc;
-											color: #fff;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox label {
-											display:inline-block;
-											padding:0 10px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox input[type="checkbox"] {
-											box-sizing: border-box;
-											left: -1px;margin: 3px;
-											padding: 0;
-											position: absolute;
-											top: 0px;vertical-align: middle;
-											opacity:0;
-											filter:alpha(opacity=0);
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox label.labelofcheckbox:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox label.labelofcheckbox .before {
-											content: " ";
-											background:url(http://static.websiteonline.cn/website/plugin/new_message_form/images/checkbox_bg.png) left center no-repeat;
-											height: 100%;
-											left: 10px;
-											position: absolute;
-											width: 16px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox .before { 
-											content:"";
-											background:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/checkbox_checkedbg.png) left center no-repeat;
-											color:#f7901d;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox {color:#fff;}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select {
-											color:#fff;
-											background-color:#6cc;
-											background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/selarrow.png) !important;
-											background-position:right 10px center !important;
-											background-repeat:no-repeat !important;
-											border:1px solid #36c8ff;
-											position:relative;
-											float: left;
-											display:block;
-											width:100%;
-											height:38px;
-											line-height:38px;
-											font-size:12px;
-											-moz-border-radius: 50px;
-											-webkit-border-radius: 50px;
-											-o-border-radius: 50px;
-											cursor:pointer;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select select {
-											position: absolute;
-											text-indent:10px;
-											top:0;
-											left:0;
-											filter: alpha(opacity=0);
-											-moz-opacity: 0;
-											opacity: 0;
-											display:block;
-											cursor:pointer;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select .cur_select {
-											text-indent:10px;
-											display:block;
-											height:100%;
-											width:100%;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select .cp_sele { 
-											width:100%;
-											height:100%;
-											text-align:center;
-											background:#fff;
-											border:#dedede 1px solid;
-											-moz-border-radius: 5px;
-											-webkit-border-radius: 5px;
-											border-radius:5px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .msel {margin-top:3px;}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea {
-											color:#fff;
-											border:1px solid #36c8ff;
-											font-size:12px;
-											padding:5px 0;
-											text-indent:15px;
-											width:100%;
-											height:60px;
-											background-color:#6cc;
-											border-radius:50px;
-											-moz-border-radius:50px;
-											-webkit-border-radius:50px;
-											-o-border-radius:50px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .btnsubmit {
-											display:block;
-											border:1px solid #36c8ff;
-											background-color:#6cc;
-											line-height:38px;
-											height:38px;
-											width:318px;
-											border-radius:50px;
-											-moz-border-radius:50px;
-											-webkit-border-radius:50px;
-											-o-border-radius:50px;
-											text-align:center;
-											color:#fff;
-											margin-top:5px;
-										}
-										
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .btnsubmit:hover {background-color:#6ad7d7;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-container {text-align:center;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-container {	//position: relative;        background: white;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-element-invisible {	position: absolute !important;	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */    clip: rect(1px,1px,1px,1px);}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-pick {    width: 100%;    display: inline-block;    position: relative;    cursor: pointer;    color: #626262;    //text-align: center;    border-radius: 3px;    overflow: hidden;    //padding: 1px 6px;    //color: #626262;    //text-align: center;    //background: url(../../template/default/images/wp-button-bg.gif) repeat-x bottom #5183c9;    //line-height: 38px;    position:relative;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-pick_txt{    float: left;    margin-left: 10px;    color:#5a5a5a;}
-										//.webuploader-pick:before{ /*    content:'.'; display:inline-block; line-height: 33px; background: url(../../template/default/images/wp-picture-upload_arrow.png) no-repeat 0 6px;    text-indent:-999px;    padding-left: 20px;    margin-left: 5px;*///}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-pick-hover {	//background: #2e5fb2;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-pick-disable {	opacity: 0.6;	pointer-events:none;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .webuploader-pick_btn{    float: right;    display: inline-block;    background-color: #5CB719;    color: white;    padding: 0 15px;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext:focus,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext.datepicker:focus,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select.on,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea:focus {background-color:transparent;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext:focus,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select.on,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea:focus {border-color:#ffffff;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on {background-color:#6cc;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio {color:#fff;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox.on label.labelofradio .before {background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/radio_checkedbg.png);}#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on {background-color:#6cc;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox {color:#fff;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox:before,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox.on label.labelofcheckbox .before {background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/checkbox_checkedbg.png);}#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select.on {background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/selarrow.png) !important;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext.datepicker:focus {background-image:url(http://static.websiteonline.cn/website/plugin/new_message_form/skins/ms3/datepicker.png) !important;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE a.btnsubmit:hover {background-color:#ea0e0e;border-color:transparent;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE a.btnsubmit {width:280px;font-size:14px;border-width:0px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;background-color:#cc0000;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields span.reqtip {color:#cc0000;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inpbox {width:450px;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext.datepicker,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea {background-color:transparent;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .btn-select,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .radiobox,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .checkbox,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea {border-color:#cccccc;color:#ffffff;font-size:14px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .inptext::-webkit-input-placeholder,#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .txtarea::-webkit-input-placeholder {color:#ffffff;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE ul.mfields .title {font-size:14px;color:#ffffff;}
-										
-									</style>
-									
-									<style type="text/css">
-									
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .radiobox input[type="radio"] { filter:alpha(opacity=100); opacity:1;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .radiobox input[type="radio"] + label:before {position:relative;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .checkbox input[type="checkbox"]{ filter:alpha(opacity=100);opacity:1;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .checkbox input[type="checkbox"] + label:before {position:relative;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .send{width: 100px;float: left;background: #00aff1;height: 40px;line-height: 40px;color: #FFF;text-align: center;    border-top-right-radius: 3px;    -moz-border-top-right-radius: 3px;    -weblik-border-top-right-radius: 3px;    border-bottom-right-radius: 3px;cursor:pointer;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .cancel{background:#666666;cursor:default;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .verify{width:216px;float:left;border-top-right-radius: 0px;    -moz-border-top-right-radius: 0px;    -weblik-border-top-right-radius: 0px;    border-bottom-right-radius: 0px;}
-										#layer1C719F73FF2B2385348BE4F141EB2FCE .defaultval{display:none;}
-										
-									</style>
-		
-									<form	class="mesform" 
-											method="post" 
-											action="index.php" 
-											style="	position:relative;
-													overflow:hidden;">
-											
-										<input 	type="hidden" 
-												name="msid" 
-												value="7" />
-												
-										<ul class="mfields">		
-											<li>
-												<div class="title">貴姓<span class="reqtip">*</span></div>
-												<div class="inpbox">
-													<input type="text" name="mes[text-i1]" class="inptext" maxlength="50" required />
-												</div>
-												
-												<div style="clear:both;overflow:hidden;"></div>
-											</li>
-												
-											<li>
-												<div class="title">手機<span class="reqtip">*</span></div>
-												<div class="inpbox">
-													<input type="text" name="mes[mobile-i3]" class="inptext" data-rule-mobile="true" maxlength="50" required />
-												</div>
-												<div style="clear:both;overflow:hidden;"></div>
-											</li>
-												
-											<li>
-												<div class="title">內容</div>
-												<div class="inpbox"><textarea name="mes[textarea-i2]" class="txtarea" maxlength="150"></textarea></div>
-												<div style="clear:both;overflow:hidden;"></div>
-											</li>
-												
-										</ul>
-										
-										<div style="clear:both;overflow:hidden;"></div>
-										<a href="javascript:;" class="btnsubmit">（未定）</a>
-										
-									</form>
-		
-									<script>
-										function add_id(id){  
-										   window.id = id;
-										}
-									</script>
-			
-									<script>
-									$(function(){
-										var $curlayer = $('#layer1C719F73FF2B2385348BE4F141EB2FCE'),curskn = 'ms3';
-										var layerid = 'layer1C719F73FF2B2385348BE4F141EB2FCE';
-										// Placeholder
-										if (curskn == 'ms3') {
-											var decode = function(str){return (str||'').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#039;/g, "'")};
-											$curlayer.find('input[type="text"],select,textarea').each(function(i, node){
-												var $parent = $(node).parent(),$title = $parent.closest('li').children('.title'),$reqtip = $([]);
-												if ($title.children('.reqtip').length > 0) $reqtip = $title.children('.reqtip').detach();
-												if ($parent.is('.inpbox')){
-													  $(node).attr('placeholder',decode($title.hide().html()||''));
-													  $LAB.script('http://static.websiteonline.cn/website/script/userloginpc/jquery.placeholder.min.js').wait(function(){
-															   $(node).placeholder();
-													  })  
-												   }else {
-													if ($parent.is(':hidden')) return true;
-													$parent.children('span.cur_select').html($title.hide().html());
-												}
-												if ($reqtip.length) $reqtip.css({"position": 'absolute',"right": '-10px',"top": '0'}).appendTo($title.next('.inpbox').css("position", 'relative'));
-											}); 
-													
-													$curlayer.find('.'+layerid+'user_pic_upload').each(function(){
-														var pictitle_node = $(this).parent('.inpbox').siblings('.title'),$picreqtip = $([]);
-														if(pictitle_node.children('.reqtip').length > 0) $picreqtip = pictitle_node.children('.reqtip').detach();
-														var pictitle = pictitle_node.html();
-														$(this).find('.webuploader-pick_txt').html(pictitle);
-														pictitle_node.hide();
-														if($picreqtip.length) $picreqtip.css({"position": 'absolute',"right": '-10px',"top": '0'}).appendTo($(this).parent('.inpbox').css("position", 'relative'));
-													});
-										} else if (curskn == 'ms2') {/*Title line-height*/
-											var $inpbox = $([]);
-											$curlayer.find('ul > li').each(function(i, node){
-												var $title = $('> .title', node);$inpbox = $('> .inpbox', node);
-												$title.css("padding-top", Math.ceil(Math.max($inpbox.height() - $title.height())/2)+'px');
-											});
-											if($inpbox.length) $curlayer.find('a.btnsubmit').css("margin-left", $inpbox.position().left+'px');
-										} else if (curskn == 'ms4') {/*Inpbox max-height*/
-											var $lis = $curlayer.find('ul > li');
-											for(var i = 0,c = $lis.length;i < c;i += 2){
-												var maxh = 0;if(c == i + 1) break;
-												var $inpbox = $lis.filter(':eq('+i+')').next('li').andSelf().children('.inpbox').height('auto');
-												maxh = Math.max.apply(null, $inpbox.map(function(){return $(this).height()}).toArray());
-												$inpbox.height(maxh);
-											}
-										}
-										// Captcha
-										if ('yes' == 'no') {
-											var $captchapic = $curlayer.find('img.captchapic'),$cainp = $captchapic.siblings('.inptext'),
-											inptxtind = parseInt($cainp.css("text-indent")||'0'),capicleft = inptxtind + parseInt($cainp.css("borderLeftWidth")||'0');
-											$cainp.css("text-indent", (inptxtind + 65 + 10)+'px');
-											$captchapic.css({"top": Math.ceil(($cainp.outerHeight(true) - 18)/2)+'px',"left": capicleft+'px'}).click(function(){
-												$(this).attr("src", parseToURL('new_message_form', 'captcha', {"capkey": 'layer1C719F73FF2B2385348BE4F141EB2FCE',"s": (new Date()).getTime()}));
-											});
-												$cainp.keyup(function(){
-													var str = $cainp.val();							
-													if(str.match(/^[0-9]$/)===null){
-														suboptstr = '<span class="requiredtip" style="top:41px;">该字段必须是数字<span class="tipshadow"></span><span class="pointytip"></span></span>';
-														$cainp.parent().append(suboptstr);
-													}
-													if(str.match(/^[0-9]$/)!==null){
-														$cainp.parent().children('.requiredtip').remove();
-													}				
-												});
-										}
-									})
-									
-									</script>
-									
-								</div>
-									
-									<script>
-									
-										$(function(){
-											var $curlayer = $('#layer1C719F73FF2B2385348BE4F141EB2FCE');
-											var layerid = 'layer1C719F73FF2B2385348BE4F141EB2FCE';
-												var curskn = 'ms3';
-											// Custom-select
-											$curlayer.find('select.cp_sele').change(function(){
-												$(this).closest('.btn-select').removeClass("on");
-												$(this).prev('span.cur_select').html($('> option:selected', this).html());
-											}).focus(function(){$(this).closest('.btn-select').addClass("on")})
-											.blur(function(){$(this).closest('.btn-select').removeClass("on")});
-											// Radio:checked & Checkbox:checked
-											$curlayer.find(':radio,:checkbox').click(function(){
-												$(this).parent()[$(this).prop("checked")?'addClass':'removeClass']("on");
-												if (this.type == 'radio') $(this).parent().siblings('.radiobox').removeClass("on");
-											});
-											// Datepicker
-											if ('' == 'datepicker') {
-												var datedir = "http://static.websiteonline.cn/website/plugin/new_message_form/js";
-												if ($('link#date_picker').length == 0) {
-													$('<link id="date_picker" rel="stylesheet" />').attr({
-														"type" : 'text/css',"href" : datedir+'/jquery.cxcalendar.css'
-													}).appendTo('head');
-												}
-												$LAB.script(datedir+'/jquery.cxcalendar.min.js').wait(function(){
-													$curlayer.find('input.datepicker').not('.datepickers').cxCalendar();
-												});
-											}
-											if ('' == 'datepickers') {
-												var datedir = "http://static.websiteonline.cn/website/plugin/new_message_form/js";
-												if ($('link#date_picker').length == 0) {
-													$('<link id="date_picker" rel="stylesheet" />').attr({
-														"type" : 'text/css',"href" : datedir+'/jquery.cxcalendar.css'
-													}).appendTo('head');
-												}
-												$LAB.script(datedir+'/jquery.cxcalendar.min.js').wait(function(){
-													$curlayer.find('input.datepickers').cxCalendar(
-														{
-															type: 'datetime',
-															format: 'YYYY-MM-DD HH:mm:ss'
-														}
-													);
-												});
-											}
-											// Multi-select
-											var mselectjsn = [];
-											if ($.isPlainObject(mselectjsn) && ! $.isEmptyObject(mselectjsn)) {
-												$curlayer.find('select[data-role="mselect"]').change(function(){
-													var $select = $(this),$parent = $select.closest('.inpbox'),curid = $select.val();
-														$select.parent(".btn-select").next('.btn-select').css({"display":"none"});
-													level = '0',ky = ($select.attr("name")||'').replace(/(\[\d+\])$/, function($0, $1){
-														level = parseInt($1.replace(/^\[|\]$/, '')) + 1;return '';
-													}),preid = $parent.find('select[name="'+ky+'['+(level - 2)+']"]').val()||'';
-													var suboptjsn = mselectjsn[ky][level][(preid?preid+'-':'')+curid];
-													if ((suboptjsn||[]).length == 0) return false;
-													// reset 'sub-select' option
-													$select.parent().nextAll('.btn-select').each(function(i, node){
-														$('> span.cur_select', this).html(' --- ');
-														$('> select > option:gt(0)', this).remove();
-														$(this).hide();
-													});
-													// sub - level
-													var suboptstr = '<option value=""> --- </option>';
-													for (var i in suboptjsn) {
-														var subopt = suboptjsn[i];
-														suboptstr += '<option value="'+subopt['id']+'">'+subopt['name']+'</option>';
-													}
-													$parent.find('select[name="'+ky+'['+level+']"]').empty().append(suboptstr).parent().show();
-
-													//bug2806,提交按钮margin-top修改
-										//			var amsel=$parent.find('select[name="'+ky+'['+level+']"]').empty().append(suboptstr).parent();
-										//			if(amsel.is(':visible')){
-										//				var abtn=$curlayer.find('a.btnsubmit');
-										//				var a_top=abtn.css('margin-top').replace('px','');
-										//				var new_top=parseInt(a_top)+40;
-										//				new_top=new_top+'px';
-										//				abtn.css('margin-top',new_top)
-										//			}
-
-													wp_heightAdapt($curlayer);/*Auto change 'layer-height'*/
-												});
-											}
-											// Submit
-											$LAB
-												.script('http://static.websiteonline.cn/website/script/jquery.validate.js')
-												.script("http://static.websiteonline.cn/website/script/webuploader/webuploader.js")
-												.wait(function(){
-													var getQueenItem=function (id){
-															return $('.fileQueue_chooser_'+window.id).find('.uploadifyQueueItem').filter(function(){
-																	return this.id.match(new RegExp(id+'$'));
-															})
-													}
-													
-													var mimetypestr = '',mimetypearr = {
-														'pic' : 'image/png,image/jpg,image/jpeg,image/gif,.ico',
-														'mp3' : 'audio/mpeg',
-														'swf' : '.swf','rar' : '.rar',
-														'doc' : 'application/pdf,.doc,.docx,.ppt,.pptx,.odt,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-														'text' : 'text/plain,text/html'
-													};
-													
-													var filetype = 'pic';//临时写死
-													
-													if (filetype == 'all') {
-														for(var k in mimetypearr){
-															if ($.inArray(k, ['swf','rar']) != -1) continue;
-															mimetypestr += mimetypearr[k]+',';
-														}
-														mimetypestr = mimetypestr.replace(/,$/, '');
-													} else mimetypestr = mimetypearr[filetype];
-												//WebUploader 上传插件初始化
-												var uploader;
-												var pickid = '.'+layerid+'user_pic_upload';
-												uploader = WebUploader.create({
-													auto: false,
-													swf: 'http://static.websiteonline.cn/website/script/webuploader/Uploader.swf',
-													server: parseToURL('wp_frontpage','locale_users_uploadify'),
-													pick: {id:pickid,multiple:false},
-													formData:{fileType:'ico|gif|jpg|jpeg|png',maxFileSize: '2097152'},//文件上传请求的参数表，每次发送都会发送此对象中的参数。
-													fileVal:'Filedata',
-													// 不压缩image, 默认如果是jpeg，文件上传前会压缩一把再上传！
-													resize: false,
-													//fileNumLimit:10,//验证文件总数量, 超出则不允许加入队列。（Q_EXCEED_NUM_LIMIT）
-													fileSingleSizeLimit: 2 * 1024 * 1024,// 验证单个文件大小是否超出限制, 超出则不允许加入队列（F_EXCEED_SIZE）
-													// 只允许选择图片文件。
-													accept: {
-														title: 'Images',
-														extensions: 'gif,jpg,jpeg,bmp,png',
-														mimeTypes: mimetypestr
-													},
-													thumb:{
-														width: 40,
-														height: 40,        
-														quality: 70,// 图片质量，只有type为`image/jpeg`的时候才有效。
-														allowMagnify: true, // 是否允许放大，如果想要生成小图的时候不失真，此选项应该设置为false.
-														crop: true,// 是否允许裁剪。 
-														//type: 'image/jpeg'// 为空的话则保留原有图片格式。// 否则强制转换成指定的类型。
-													},
-													compress: false,
-													duplicate:true
-												});
-												
-												// 开始上传
-												//$('.submitbtn').click(function(){
-												//    uploader.upload();
-												//});
-												// 当文件被加入队列之前触发，此事件的handler返回值为false，则此文件不会被添加进入队列。
-												
-												uploader.on( 'beforeFileQueued', function( file ) {
-													var itemData = {
-														'fileID'     : file.id,
-														'instanceID' : file.id,
-														'fileName'   : file.name,
-														'fileSize'   : WebUploader.formatSize(file.size),
-														'cancelpng'   : "http://static.websiteonline.cn/website/script/multiupload/cancel.png",
-														'className'   : 'uploadifyQueueItem'
-													}
-													// Create the file item template
-													var itemTemplate = '<div id="${fileID}" class="${className}">\
-														<div class="cancel">\
-															<a class="WebupRemove" href="jQuery:$(\'#${instanceID}\').uploadifyCancel(\'cancel\', \'${fileID}\')"><img src="${cancelpng}" border="0" /></a>\
-														</div>\
-														<img style="width:48px;height:48px;margin-right:3px;" class="${fileID}"><span class="fileName">${fileName} (${fileSize})</span><span class="percentage"></span>\
-														\
-													</div>';
-															
-													// Replace the item data in the template
-													var itemHTML = itemTemplate;
-													for (var d in itemData) {
-														itemHTML = itemHTML.replace(new RegExp('\\$\\{' + d + '\\}', 'g'), itemData[d]);
-													}
-
-													// Add the file item to the queue
-													var $chooser = $('.fileQueue_chooser_'+window.id);
-													var oldfileid = $chooser.find(".uploadifyQueueItem").attr("id");
-													if($chooser.children().length){
-														var queen_exitfile = uploader.getFile(oldfileid);
-														if(queen_exitfile) uploader.removeFile(queen_exitfile,true);
-														
-														$chooser.empty(itemHTML);
-													}else{
-														$chooser.css({'border':'1px solid #dedede'});
-														if(curskn == 'ms4'){
-															var filequeen_height = $chooser.parents("li:eq(0)").outerHeight(true);
-															$chooser.css({'border':'1px solid #dedede','height':filequeen_height-2});
-															$chooser.parent('.inpbox').height('auto');
-														}
-													}
-													$chooser.append(itemHTML);
-													$chooser.siblings('.'+layerid+'user_pic_upload').children('.webuploader-pick').find('.webuploader-pick_txt').html('已选择1张图片');
-													if ($chooser.children('.jscroll-c').length) $chooser = $chooser.children('.jscroll-c');
-													//console.log('allfile222:',uploader.getFiles());//队列中的记录还在其实已经删除了
-													//console.log('onefile:',uploader.getFile('WU_FILE_0'));//undefined
-												});
-												var required_pic_post_f = '';
-												var choose_pic_post_f = '';
-												//当文件被加入队列以后触发
-												uploader.on( 'fileQueued', function( file ) {
-													//图片加入队列后生成缩略图
-													uploader.makeThumb( file, function( error, src ) {
-														if ( error ) {
-															$("."+file.id).replaceWith('<span>不能预览</span>');
-															return;
-														}
-														$("."+file.id).attr( 'src', src );
-													}, 1, 1 );
-													//Remove item
-													$('#'+file.id+' a.WebupRemove').click(function(){
-														if(curskn == 'ms3'){
-															var oldname = $(this).parents('.filequeue').siblings('.uppic_hidden').attr('field_name');
-															$(this).parents('.filequeue').siblings('.'+layerid+'user_pic_upload').children('.webuploader-pick').find('.webuploader-pick_txt').html(oldname);
-														}else{
-															$(this).parents('.filequeue').siblings('.'+layerid+'user_pic_upload').children('.webuploader-pick').find('.webuploader-pick_txt').html('');
-														}
-														$(this).parents('.filequeue').css({'border':'none','height':'auto'});
-														$('#'+file.id).remove();
-														uploader.removeFile(file,true);
-														wp_heightAdapt($curlayer);
-													});
-													wp_heightAdapt($curlayer);
-												})
-												// 文件上传过程中创建进度条实时显示。
-										//        uploader.on( 'uploadProgress', function( file, percentage ) {
-										//            var $li = $( '#'+file.id ),
-										//            $percent = $li.find('.uploadifyProgressBar');
-										//            $percentTxt = $li.find('.percentage');
-										//            // 避免重复创建
-										//            if ( !$percent.length ) {
-										//                //$percent = $('<p class="progress"><span></span></p>').appendTo( $li ).find('span');
-										//            }
-										//            var per_width = Math.round(percentage * 100) + '%'
-										//            $percent.css( 'width', per_width );
-										//            $percentTxt.html(' - ' + per_width);
-										//            if(percentage==1) $percentTxt.html(" - Completed");
-										//        });
-												
-												//当validate不通过时，会以派送错误事件的形式通知调用者
-												uploader.on('error', function(file,max,fileobj){
-													if(file=='F_EXCEED_SIZE'){   //验证单个文件大小  fileSingleSizeLimit 
-														var uploadsize= max/1024/1024;
-														getQueenItem(fileobj.id).find('.percentage').css('color','red').html(" - 文件大小不能超过"+((uploadsize>=1?uploadsize+'MB':uploadsize*1024+"KB")));
-													}else if(file=='Q_EXCEED_NUM_LIMIT'){ //验证文件总数量 fileNumLimit
-														$('#'+fileobj.id).remove();
-														uploader.removeFile(fileobj,true);
-													}else if(file=='Q_TYPE_DENIED'){ //验证类型 Q_TYPE_DENIED
-														getQueenItem(max.id).find('.percentage').css('color','red').html(" - 非法的上传类型");
-													}
-													//Remove item
-													$('#'+fileobj.id+' a.WebupRemove').click(function(){
-														if(curskn == 'ms3'){
-															var oldname = $(this).parents('.filequeue').siblings('.uppic_hidden').attr('field_name');
-															$(this).parents('.filequeue').siblings('.'+layerid+'user_pic_upload').children('.webuploader-pick').find('.webuploader-pick_txt').html(oldname);
-														}else{
-															$(this).parents('.filequeue').siblings('.'+layerid+'user_pic_upload').children('.webuploader-pick').find('.webuploader-pick_txt').html('');
-														}
-														$(this).parents('.filequeue').css({'border':'none','height':'auto'});
-														$('#'+fileobj.id).remove();
-														wp_heightAdapt($curlayer);
-														//uploader.removeFile(file,true);
-													});
-													wp_heightAdapt($curlayer);
-												});
-												// 文件成功、失败处理
-												 uploader.on( 'uploadSuccess', function( file,result ) {
-													var fname = result.fname;
-													$("#"+file.id).parent().next("input:hidden").val(fname);
-													  if(result.result=='ERROR'){
-														  var $li = $( '#'+file.id ),
-														  $percent = $li.find('.percentage');
-														  $percent.css('color','red').html(' - '+ result.errmsg);
-													  }  
-												});
-
-												uploader.on( 'uploadError', function( file ) {
-													alert('上传失败！');
-													var $li = $( '#'+file.id ),
-													$percent = $li.find('.percentage');
-													$percent.css('color','red').html(' - '+ '上传失败！');
-												});
-
-												uploader.on( 'uploadComplete', function( file ) {
-													//图片类必填项图片是否全部上传
-													$curlayer.find('.mesform').find(".uppic_hidden").each(function(){
-														var is_required = $(this).attr("required");
-														var imgstr = $(this).val();
-														if(is_required){
-															if(imgstr == ''){
-																required_pic_post_f = false;
-																return false;
-															}else{
-																required_pic_post_f = true;
-															}
-														}
-													})
-													//选择上传的图片是否全部上传
-													$curlayer.find('.mesform').find(".filequeue").each(function(){
-														var uppic_hidden_node = $(this).siblings('.uppic_hidden');
-														var is_choose_pic = $(this).html();
-														var imgstr2 = uppic_hidden_node.val();
-														if(is_choose_pic !=''){
-															if(imgstr2 == ''){
-																choose_pic_post_f = false;
-																return false;
-															}else{
-																choose_pic_post_f = true;
-															}
-														}
-													})
-													if(choose_pic_post_f){
-														$curlayer.find('.btnsubmit').click();
-														uploader.reset();
-													}
-										//            alert('上传完成';
-													//$( '#'+file.id ).find('.uploadifyProgress').remove();
-												});
-												$curlayer.find('.mesform').validate({
-													errorPlacement: function(error, el){
-														var $tiparent = el.closest('.inpbox'),$reqtip = $tiparent.children('.requiredtip');
-														if ($reqtip.length > 0) $reqtip.remove();
-														var _top = $tiparent.outerHeight(),tipmsg = '该字段是必填项';
-														if (el.val().length && (el.attr("data-rule-email") == 'true')) tipmsg = '请输入有效的电子邮件地址';
-														if (el.val().length && (el.attr("data-rule-mobile") == 'true')) tipmsg = '请输入有效的手机号码';
-														if (el.val().length && (el.attr("data-rule-Idcard") == 'true')) tipmsg = '请输入有效的身份证号码';
-														$tiparent.css("position", 'relative').append('<span class="requiredtip" style="top:'+_top+'px;">'
-															+tipmsg+'<span class="tipshadow"></span><span class="pointytip"></span></span>');
-													},success: function(label){
-														var inpnstr = (label.attr("id")||'').replace('-error', '');
-														$curlayer.find('[name="'+inpnstr+'"]').closest('.inpbox').children('.requiredtip').remove();
-													},submitHandler: function(form, e){
-														var isempty = false,frmdata = $(form).serializeArray();
-														var useauthcode = 'no';
-														$("input:[name='mobile']").val("0");
-														for (var i in frmdata) {
-															var frmobj = frmdata[i];
-															if (/^mes/i.test(frmobj['name'])) {
-																var keyname = frmobj['name'];
-																var kval = $.trim(frmobj['value']);
-																if(keyname.indexOf("mobile")>0){
-																	if (kval.length > 0){
-																		$("input:[name='mobile']").val("1");
-																	}
-																}
-															}
-														}				
-														for (var i in frmdata) {
-															var frmobj = frmdata[i];
-															if (/^mes/i.test(frmobj['name'])) {
-																var keyname = frmobj['name'];					
-																var kval = $.trim(frmobj['value']);
-																						if(keyname.indexOf("picturesupload")>0){
-																							continue;
-																						}
-																if(keyname.indexOf("Idcard")>0){
-																	if( !(kval.length==15 || kval.length ==18)){
-																		alert('身份证号码长度必须为15或18位');
-																		return false;
-																	}else{
-																		var reg=/^[1-9]{1}[0-9]{13}([0-9]|[xX])$|^[1-9]{1}[0-9]{16}([0-9]|[xX])$/;
-																		if(reg.test(kval)){}else{
-																			alert('请输入有效的身份证号码');
-																			return false;
-																		}
-																	 
-																	}			
-																}						
-																if (kval.length > 0) break;
-																else isempty = true;
-															}
-														}
-														if (isempty) return false;
-												//检查图片类必填项，的图片是否加入队列
-														var has_re_pic_upload = $curlayer.find('.mesform .uppic_hidden[required]').length;
-														if(has_re_pic_upload && !required_pic_post_f){
-															var requiredpic_add_queen = '';
-															$curlayer.find('.mesform').find(".uppic_hidden").each(function(){
-																var is_required = $(this).attr("required");
-																if(is_required){
-																   var is_add_queen = $(this).siblings('.filequeue').html();
-																   var imgstr_name = $(this).attr('field_name');
-																   if(is_add_queen == ''){
-																	   requiredpic_add_queen = false;
-																	   alert(imgstr_name+':字段不能为空！');
-																	   return false;
-																	}else{
-																		requiredpic_add_queen = true;
-																	}
-																}else{
-																	requiredpic_add_queen = true;
-																}
-															})
-															if(requiredpic_add_queen){
-																uploader.upload();
-															}else{
-																return false;
-															}
-															return;//图片类必填项，选择上传的图片是否全部上传
-														}
-														var has_pic_upload = $curlayer.find('.mesform').find('.'+layerid+'user_pic_upload').length;
-														//图片上传类的非必填项是否选择了图片
-														var has_file_inqueen = '';
-														if(has_pic_upload){
-															$curlayer.find('.mesform').find(".uppic_hidden").each(function(){
-																has_file_inqueen = $(this).siblings('.filequeue').html();
-																if(has_file_inqueen !=''){
-																	has_file_inqueen = true;
-																	return false;
-																}
-															})
-														}
-														//图片类只有非必填项时的上传
-														if(has_pic_upload && !has_re_pic_upload && !choose_pic_post_f && has_file_inqueen){
-															if(has_file_inqueen){
-																uploader.upload();
-															} 
-															return;
-														}
-																		
-														$.post("http://travel-441.view.sitestar.cn/index.php?_m=new_message_form&_a=savemes", $(form).serialize(), function(data){
-															var jsndata = $.parseJSON(data);
-															if (jsndata.result == 'ERROR') alert(jsndata.errmsg);
-															else if (jsndata.result == 'OK') {
-																$('#layer1C719F73FF2B2385348BE4F141EB2FCE').find(".defaultval").html(2);
-																$('#layer1C719F73FF2B2385348BE4F141EB2FCE').find(".send").removeClass("cancel").html("发送验证码");
-																						alert("提交成功");
-																form.reset();
-																						required_pic_post_f = false;
-																						choose_pic_post_f = false;
-																						$curlayer.find('.mesform').find(".uppic_hidden").each(function(){
-																							$(this).val('');
-																						})
-																						$curlayer.find('.mesform').find(".filequeue").each(function(){
-																							$(this).html('');
-																							$(this).css({'border':'none','height':'auto'});
-																						})
-																						$curlayer.find('.mesform').find(".webuploader-pick_txt").each(function(){
-																							if(curskn == 'ms3'){
-																								var oldname = $(this).parents('.webuploader-container').siblings('.uppic_hidden').attr('field_name');
-																								$(this).html(oldname);
-																							}else{
-																								$(this).html('');
-																							}
-																						})
-																						var skn = 'ms3';
-																$('.radiobox, .checkbox', form).removeClass("on");
-																$('.btn-select > span.cur_select', form).html(function(){
-																	var tipstr = ' --- ',$li = $(this).closest('li');
-																	if (skn == 'ms3') tipstr = $li.children('.title').html()||' --- ';
-																	$li.find('> .inpbox > .btn-select:gt(0)').hide();
-																	return tipstr;
-																});
-																if (useauthcode == 'yes') $('img.captchapic', form).trigger("click");
-																wp_heightAdapt($curlayer);
-															} else alert("请求失败");
-															$('span.requiredtip', form).remove();
-														});
-													}
-												});
-											});
-											$curlayer.find('a.btnsubmit').unbind('click').click(function(){$curlayer.find('.mesform').submit()});
-										})
-									
-									</script>
-						</div>
-	
-						<script>	
-							$('#layer1C719F73FF2B2385348BE4F141EB2FCE').triggerHandler('layer_ready');
-						</script>
-	
-						<div 	id='layer33C4CD6D61A018F3F3FC72B06E0BD1C1' 
-								type='title'  
-								class='cstlayer' 
-								style='left: 60px; top: 130px; position: absolute; z-index: 10002; width: 300px; height: 30px;'  
-								mid=""  
-								fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-								deg='0'>
-						
-							<div 	class="wp-title_content" 
-									style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 30px; width: 300px; border-style: solid; display: block;">
-									
-								<span style="line-height: 19.6px; font-size: 14px; color: rgb(204, 204, 204); font-family: 微软雅黑;">XXXXX0001</span>
-								<span style="line-height: 16.8px; font-family: 微软雅黑; color: rgb(204, 204, 204);">​</span>
-							</div>
-							
-						</div>
-	
-						<script>		
-							$('#layer33C4CD6D61A018F3F3FC72B06E0BD1C1').triggerHandler('layer_ready');
-						</script>
-	
-	<div id='layer524D55F41A24CB376F87DD03C211229C' type='line'  class='cstlayer' style='left: 60px; top: 150px; position: absolute; z-index: 10003; width: 320px; height: 31px;'  mid=""  fatherid='layer1CBE24D59921578C784654FBEE46F84B'   deg='0'><div class="wp-line_content" style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 320px; height: 31px; border-style: solid;"><div class="wpline-wrapper horizontal-solid"></div><script language="javascript">
-	</script>
-	</div>
-	</div>
-	
-	<script>		        
-		$('#layer524D55F41A24CB376F87DD03C211229C').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerB23B32314044F310FA11622A8E94E77D' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 60px; top: 180px; position: absolute; z-index: 10004; width: 300px; height: 44px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-			
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 44px; width: 300px; border-style: solid; display: block;">	
-			
-			<span style="color: rgb(255, 0, 0); font-family: 微软雅黑; font-size: 30px;">0903-000-000</span>
-		</div>
-		
-	</div>
-	
-	<script>	
-		$('#layerB23B32314044F310FA11622A8E94E77D').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer4D68ED3897E03D627FFF554C26ECC905' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 60px; top: 260px; position: absolute; z-index: 10005; width: 300px; height: 41px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 41px; width: 300px; border-style: solid; display: block;">
-		
-			<span style="color: rgb(255, 255, 255); font-family: 微软雅黑; font-size: 24px;">XXXXX0002</span>
-		</div>
-		
-	</div>
-	
-	<script>		        
-		$('#layer4D68ED3897E03D627FFF554C26ECC905').triggerHandler('layer_ready');
-	</script>
-	<div 	id='layer6412D11798AEBBBC3EF7DD1BA089B416' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 60px; top: 310px; position: absolute; z-index: 10013; width: 300px; height: 30px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-			
-		<div class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 30px; width: 300px; border-style: solid; display: block;">
-		
-			<span style="color: rgb(204, 204, 204); font-family: 微软雅黑; font-size: 14px;">XXXXX0003</span>
-		</div>
-		
-	</div>
-	
-	<script>
-		$('#layer6412D11798AEBBBC3EF7DD1BA089B416').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer7BCDEBD68331413BA4E5C9AEC78E9A95' 
-			type='line'  
-			class='cstlayer' 
-			style='left: 50px; top: 330px; position: absolute; z-index: 10014; width: 320px; height: 31px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-line_content" 
-				style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 320px; height: 31px; border-style: solid;">
-			
-			<div class="wpline-wrapper horizontal-solid"></div>
-			<script language="javascript">
-			</script>
-			
-		</div>
-		
-	</div>
-	
-	<script>		        
-		$('#layer7BCDEBD68331413BA4E5C9AEC78E9A95').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer8ACCF9B9A5E89AFC1A8F6B1F18940A27' 
-			type='buttons'  
-			class='cstlayer' 
-			style='left: 60px; top: 370px; position: absolute; z-index: 155; width: 100px; height: 36px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-			
-		<div 	class="wp-buttons_content" 
-				style="padding: 0px; border-color: transparent; border-width: 0px; overflow: hidden; width: 100px; height: 36px; border-style: solid;">
-		
-			<a 	href="http://travel-441.view.sitestar.cn/about.html" 
-				class="btnarea button_btndefault-link" 
-				style="width:98px;left:0px;top:0px;height:34px;line-height:34px;" 
-				target="_blank">
-				
-				<span class="button_btndefault-label">聯絡我們</span>
-			</a>
-			
-			<script language="javascript">
-				$('#layer8ACCF9B9A5E89AFC1A8F6B1F18940A27').layer_ready(function(){});
-			</script>
-		</div>
-		
-	</div>
-	
-	<script>		  
-		$('#layer8ACCF9B9A5E89AFC1A8F6B1F18940A27').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerF545408252D9220E6DBC236941220E30' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 470px; top: 84px; position: absolute; z-index: 10011; width: 150px; height: 40px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 40px; width: 150px; display: block;">
-				
-			<h2 style="text-align: left; font-weight: normal; color: rgb(0, 0, 0); font-family: 微软雅黑;">
-				<span style="font-size: 24px; color: rgb(255, 255, 255);">XXXXX0004</span>
-			</h2>
-		</div>
-		
-	</div>
-	
-	<script>	
-		$('#layerF545408252D9220E6DBC236941220E30').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer453E8F79A1B485AF8A814EF97475DE0C' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 470px; top: 134px; position: absolute; z-index: 10010; width: 444px; height: 29px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border: 0px solid transparent; height: 29px; width: 444px; display: block;">
-		
-			<h4 style="text-align: left; font-weight: normal; color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 18px;">
-				<span style="color: rgb(204, 204, 204); font-size: 14px;">● XXXXX0005 ●</span>
-			</h4>
-		</div>
-		
-	</div>
-	
-	<script>		      
-		$('#layer453E8F79A1B485AF8A814EF97475DE0C').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerC09A944E934EF82F8BF02DC3A9C76182' 
-			type='customerservice'  
-			class='cstlayer' 
-			style='left: 193px; top: 376px; position: absolute; z-index: 10016; width: 81px; height: 25px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-customerservice_content" 
-				style="overflow: hidden; border-color: transparent; border-width: 0px; width: 81px; height: 25px; border-style: solid; padding: 0px;">
-				
-			<ul>  
-				<li>
-					<a href="http://wpa.qq.com/msgrd?v=3&uin=1370224171&site=qq&Menu=yes" target="_blank"><!--網址-->
-						<img src="http://static.websiteonline.cn/website/plugin/customerservice/images/icons/qq/offline_qq_1.png" border="0" /><!--圖標-->
-					</a>
-				</li>
-			</ul>
-			
-		</div>
-		
-	</div><!-- qq聯繫設定 -->
-	
-	<script>		
-		$('#layerC09A944E934EF82F8BF02DC3A9C76182').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerECDB717130D9142F0FD1252B2474678F' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 1020px; top: 211px; position: absolute; z-index: 10007; width: 120px; height: 30px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-title_content" 
-				style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 30px; width: 120px; border-style: solid; display: block;">
-				
-			<div style="text-align: center;">
-				<span style="font-size: 14px; color: rgb(255, 255, 255); font-family: 微软雅黑;">XXXXX0006</span>
-			</div>
-			
-		</div>
-		
-	</div>
-	
-	<script>		     
-    $('#layerECDB717130D9142F0FD1252B2474678F').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6' 
-			type='media'  
-			class='cstlayer' 
-			style='left: 1020px; top: 80px; position: absolute; z-index: 10006; width: 120px; height: 120px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-			
-		<script>
-			create_pc_media_set_pic('layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6',false);
-		</script>
-		
-		<div 	class="wp-media_content"  
-				style="border-radius:3px;
-				-moz-border-radius:3px;
-				-webkit-border-radius:3px;
-				overflow: hidden;
-				width: 114px;
-				height: 114px;
-				border-width: 0px;
-				border-style: solid;
-				padding: 3px;
-				background-color: rgb(255, 255, 255);"
-				type="0">
-				
-			<div 	class="img_over"  
-					style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 114px; height: 114px;'>
-					
-				<div class="imgloading" style="z-index:100;"> </div>
-				<img  	id="wp-media-image_layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6" 
-						class="img_lazy_load paragraph_image"  data-original="http://tpl-c182c84.pic31.websiteonline.cn/upload/erweima.jpg" 
-						type="zoom" 
-						src="http://static.websiteonline.cn/website/template/default/images/blank.gif" 
-						style="width: 114px; height: auto;;" />
-			</div>
-
-		</div>
-		
-		<script>
-			(function(){
-				layer_media_init_func('layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6');
-			})()
-		</script>
-	
-	</div>
-	
-	<script>	
-		if($.browser.msie && $.browser.version < 9) $('#layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6').find('div:first').addClass('layer_content');
-		$('#layerB0D2D6C4FBFEF24FFDDCC9AC668BC3F6').triggerHandler('layer_ready');
-	</script>
-	
-	<div 	id='layer512E76D7158F2C7BCF480A65F4E781D4' 
-			type='media'  
-			class='cstlayer' 
-			style='left: 1020px; top: 251px; position: absolute; z-index: 10008; width: 120px; height: 120px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-			
-		<script>
-			create_pc_media_set_pic('layer512E76D7158F2C7BCF480A65F4E781D4',false);
-		</script>
-		
-		<div 	class="wp-media_content"  
-				style="	border-radius:3px;
-						-moz-border-radius:3px;
-						-webkit-border-radius:3px;
-						overflow: hidden;
-						width: 114px;
-						height: 114px;
-						border-width: 0px;
-						border-style: solid;
-						padding: 3px;
-						background-color: rgb(255, 255, 255);"
-						type="0">
-						
-			<div 	class="img_over"  
-					style='overflow: hidden; border-color: transparent; border-width: 0px; position: relative; width: 114px; height: 114px;'>
-
-				<div class="imgloading" style="z-index:100;"> </div>
-				<img  	id="wp-media-image_layer512E76D7158F2C7BCF480A65F4E781D4" 
-						class="img_lazy_load paragraph_image"  data-original="http://tpl-c182c84.pic31.websiteonline.cn/upload/erweima.jpg" 
-						type="zoom" 
-						src="http://static.websiteonline.cn/website/template/default/images/blank.gif" 
-						style="width: 114px; height: auto;;" /><!--二維碼-->
-			</div>
-
-		</div>
-		
-		<script>
-			(function(){
-				layer_media_init_func('layer512E76D7158F2C7BCF480A65F4E781D4');
-			})()
-		</script>
-	
-	</div>
-	
-	<script>	
-		if($.browser.msie && $.browser.version < 9) $('#layer512E76D7158F2C7BCF480A65F4E781D4').find('div:first').addClass('layer_content'); 
-		$('#layer512E76D7158F2C7BCF480A65F4E781D4').triggerHandler('layer_ready');
-	</script>
-	<div 	id='layerA7BB264CD660120E4F1FCB5B82713899' 
-			type='title'  
-			class='cstlayer' 
-			style='left: 1020px; top: 380px; position: absolute; z-index: 10009; width: 120px; height: 30px;'  
-			mid=""  
-			fatherid='layer1CBE24D59921578C784654FBEE46F84B'   
-			deg='0'>
-	
-		<div 	class="wp-title_content" 
-				style="	word-wrap: break-word;
-						padding: 0px;
-						border-color: transparent;
-						border-width: 0px;
-						height: 30px;
-						width: 120px;
-						border-style: solid;
-						display: block;">
-			<div style="text-align: center;">
-				<font color="#ffffff" face="微软雅黑"><span style="font-size: 14px;">XXXXX0007</span></font>
-			</div>
-			
-		</div>
-		
-	</div>
-	
-	<script>		
-		$('#layerA7BB264CD660120E4F1FCB5B82713899').triggerHandler('layer_ready');
-	</script>
-	
-	<div id='layer6BC2FE779636840CB2CC91EA5D67E612' type='title'  class='cstlayer' style='left: 60px; top: 80px; position: absolute; z-index: 10001; width: 300px; height: 41px;'  mid=""  fatherid='layer1CBE24D59921578C784654FBEE46F84B'   deg='0'><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 41px; width: 300px; border-style: solid; display: block;"><span style="line-height: 33.6px; font-size: 24px; font-family: 微软雅黑; color: rgb(255, 255, 255);">XXXXX0000</span>​</div>
-	</div><script>		         $('#layer6BC2FE779636840CB2CC91EA5D67E612').triggerHandler('layer_ready');</script>    
-	</div>
-	</div><script>		         $('#layer1CBE24D59921578C784654FBEE46F84B').triggerHandler('layer_ready');</script>        </div>
-		</div>
-	</div><!--第四頁結束-->
-	</div><!--最外圍-->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div class="fullpage_arrow" style="display:none;">
-		<p class="fullpage_arrow_t"></p>
-	</div>
-	
-	<div class="fullpage_music" style="display:none;">
-		<div class="u-audio " data-src="">
-			<p id="coffee_flow" class="btn_audio">
-				<strong class="txt_audio z-hide"></strong>
-				<span class="fullpage_arrow_m audio_open" style="display:none;"></span>
-				<div class="coffee-steam-box" style=""></div>
-			</p>
-		</div>
-	</div>
-
-	
-	
-	<script>
-		$.wismobile = '';
-		$.wiseditmode = '';
-		$.wisviewmode = '';
-		
-		$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_content').css('height', ($(window).height()-0) + 'px');
-		$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_pagescroll').css('height', ($(window).height()-0) + 'px');
-		$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_width').css('height', ($(window).height()-0) + 'px');
-		$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.fullpagesection').css({"width":($(window).width()-0) + "px","left":-$.fullpagecanvasleft() + "px"});
-		$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_pagescroll').css({"margin-left":$.fullpagecanvasleft() + "px","left":"0px"}); 
-		
-		if($.wismobile){
-			$('#canvas #fullPage-nav').hide();
-			$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.fullpagesection').css({"width":($("#canvas").width()-0) + "px","left":"0px"});
-				setTimeout(function(){
-					$('#canvas #fullPage-nav').hide();
-					if($.wiseditmode){$("#canvas").css("height", $("#scroll_container").height()+"px");}
-					//去滚动条手机编辑暂不考虑 full_pagescroll= canvas.height; 
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_pagescroll').css({"margin-left": "0px","left":"0px"}); 
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_width').css({"height": $("#canvas").height() + "px","left":"0px"});
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_content').css({"width":$("#canvas").width() + "px","left":"0px","height": $("#canvas").height() + "px"});
-					$('#scroll_container_bg').css("height",$("#scroll_container").height() + "px");
-							setInterval(function(){
-								if($("#scroll_container").height()>$("#canvas").height())
-									$("#canvas").css("height", $("#scroll_container").height() + "px");
-									$("#scroll_container_bg").css("height", $("#scroll_container").height() + "px");
-							},10);
-				},111);
-			if($.wisviewmode){
-				setTimeout(function(){
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.fullpagesection').css({"height":$("#scroll_container").height() + "px","width":($("#canvas").width()-0) + "px","left":"0px"});
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_pagescroll').css("height", $("#scroll_container").height() + "px");
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_pagescroll').css({"margin-left": "0px","left":"0px"}); 
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_width').css({"height": $("#scroll_container").height() + "px","left":"0px"});
-					$('#layerA4F8F3B5F5A84575207A8673A8C59DC9').find('.full_content').css({"height":$("#scroll_container").height() + "px","width":$("#canvas").width() + "px","left":"0px"});
-					$('#canvas').css("height",$("#scroll_container").height() + "px");
-				},210);
+			#Box-Calendar-BG_2{
+				top:0px;
+				left:375px;
+				position:absolute;
 			}
-			//浏览-PC下
-			if($.wp_fullpag_mobile()==false) $('.fullpage_music .u-audio').css({'top':'10px','left':($.fullpagecanvasleft()+216)+'px'});        
-			if($.wisviewmode==''){
-				setTimeout(function(){
-					$('.section').each(function(i){
-					   if($.wiseditmode==1) var maxjson = {width:$('#canvas').width(),height:($("#scroll_container").height())};
-					   else var maxjson = {width:$('#canvas').width(),height:($(this).height())};
-						var json = {width:'0',height:'0'};
-						$.wp_fullpagezoom($(this),maxjson,json,'noresize');
-					});
-				},10);
+			
+			#Box-Calendar-BG_3{
+				top:0px;
+				left:750px;
+				position:absolute;
 			}
-		}else{
-			//初始化时自适应缩放 2015.02.28
-			setTimeout(function(){
-				$('#layerA4F8F3B5F5A84575207A8673A8C59DC9 .section').each(function(i){
-					var $paragraph_imageini = $(this).find('.section .bg > img'),maxjson = {width:$(window).width(),height:$(window).height()};
-					var json = {width:$paragraph_imageini.width(),height:$paragraph_imageini.height()};
-					$.wp_fullpagezoom($(this),maxjson,json,'noresize');
-				});
-			},10);
+			
+			#Box-Calendar-BG_4{
+				top:0px;
+				left:1125px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_5{
+				top:374px;
+				left:0px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_6{
+				top:374px;
+				left:375px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_7{
+				top:374px;
+				left:750px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_8{
+				top:374px;
+				left:1125px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_9{
+				top:748px;
+				left:0px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_10{
+				top:748px;
+				left:375px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_11{
+				top:748px;
+				left:750px;
+				position:absolute;
+			}
+			
+			#Box-Calendar-BG_12{
+				top:748px;
+				left:1125px;
+				position:absolute;
+			}
+		
+		.Box-Calendar_Word-Month{
+			width:375px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+			
+			z-index:13;
+		}/*字_月份框架*/
+		
+		.Box-Calendar_Word-Content{
+			width:375px;
+			height:274px;
+			background-color:;
+			
+			top:100px;
+			left:0px;
+			position:absolute;
+			
+			z-index:13;
+		}/*內容框架*/
+		
+	/*Tribe*/	
+		.Box-Tribe_Content-Style{
+			width: 825px;
+			height: 50px;
+			background-color:;
+			
+			border-top:1px solid rgb(180,206,146);
+			
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
 		}
-	//    $('.fullpage_mask').css({"position":"fixed"
-	//        ,"z-index":"500","margin-top":$('#canvas #fullPage-nav').css('margin-top'),"width":"90px","height":$(window).height()+"px","top":"50%","right":"0px","background-color":"red"
-	//    });
-		//加载样式
-		get_plugin_css('canvas','#canvas #fullPage-nav li .active {background:#cc0000;opacity: 1;}   #canvas #fullPage-nav li a {width:12px;height:12px;background:none;border: 2px solid #cc0000;} #canvas .fullPage-tooltip {color:#cc0000;opacity: 1;}  #canvas .fullpage_music .fullpage_arrow_m{background-image:url(http://static.websiteonline.cn/website/script/fullpage/img/css_arrow_m.png)!important;  background-repeat: no-repeat!important;}  #canvas .fullpage_arrow .fullpage_arrow_t{background-image:url(http://static.websiteonline.cn/website/script/fullpage/img/css_arrow_t.png)!important;  background-repeat: no-repeat!important;} ');
-	</script> 
-		</div>
-		</div>	 
-		 
-<!--
-		<div id="site_footer" class="only_copyright" style="width:1200px;position:absolute;height:82px;z-index:500;">
-			<div class="full_width" style="position:absolute;height:82px;"></div>
-			<div id="footer_content" class="full_content" style="width:1200px; position:absolute;left:0;top:0;margin-left: 0px;height:82px;">
-				<a id="copyright2" class="new_sitestar_footer_cp" href="http://www.sitestar.cn/" target="_blank">
-					<span class="sf_logo"></span>
-					<span class="sf_font">免费做网站用<font>建站之星</font>!</span>
-					<span class="sf_close"><div></div></span>
-				</a> <!-- new_sitestar_footer_cp end
-			</div>
-		</div>
-
 		
-		<script>
-			$('#copyright2').css('left',($('#canvas').width()-$('#copyright2').width())/2);
-		</script><!--//wp-mobile_navigate end-->
-		
-		
-		
-	</div>
-	
-
-
-	<script type="text/javascript">
-		var b;    
-		doc_end_exec();
-	</script>
-	
-	<script>
-		function wx_open_login_dialog(func){
-			func(true);
+		.Box-Tribe_Title{
+			width: 225px;
+			height: 50px;
+			background-color:;
+			
+			left:0px;
+			position:absolute;
+			
+			z-index:12;
 		}
-	</script>
-	
-	<script>
-		$(window).load(function(){
-			if(location.hash && location.hash !='' && location.hash !='#'){
-				location.href=location.hash;
+		
+		.Box-Tribe_Content{
+			width: 550px;
+			height: 50px;
+			background-color:;
+			
+			left:275px;
+			position:absolute;
+			
+			z-index:12;
+		}
+		
+			#Box-Tribe-Style_02{
+				top:60px;
 			}
-		});
-		(function(){
-		if(('standalone' in window.navigator)&&window.navigator.standalone){  
-				var noddy,remotes=false;  
-				document.addEventListener('click',function(event){  
-						noddy=event.target;  
-						while(noddy.nodeName!=='A'&&noddy.nodeName!=='HTML') noddy=noddy.parentNode;  
-						if('href' in noddy&&noddy.href.indexOf('http')!==-1&&(noddy.href.indexOf(document.location.host)!==-1||remotes)){  
-								event.preventDefault();  
-								document.location.href=noddy.href;  
-						}  
-				},false);  
-		}  
-		})();
-	</script>
- 	  
-</body>
-</html>
+			
+			#Box-Tribe-Style_03{
+				top:120px;
+			}
+			
+			#Box-Tribe-Style_04{
+				top:180px;
+			}
+			
+			#Box-Tribe-Style_05{
+				top:240px;
+			}
+			
+			#Box-Tribe-Style_06{
+				top:600px;
+			}
+			
+			#Box-Tribe-Style_07{
+				top:660px;
+			}
+			
+			#Box-Tribe-Style_08{
+				top:720px;
+			}
+			
+			#Box-Tribe-Style_09{
+				top:780px;
+			}
+			
+			#Box-Tribe-Style_10{
+				top:1050px;
+			}
+			
+			#Box-Tribe-Style_11{
+				top:1360px;
+			}
+			
+	/*AboutUs*/
+	
+		.Box-AboutUs-Style{
+			width:1000px;
+			height:1300px;
+			background-color:;
+			
+			margin-left:-500px;
+			
+			top:200px;
+			left:50%;
+			position:absolute;
+			
+		}
+		
+		.Box-AboutUS-00{
+			width:1000px;
+			height:100px;
+			background-color:;
+			
+			margin-left:-500px;
+			
+			left:62%;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-Name{
+			width:200px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:0px;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-SID{
+			width:300px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:200px;
+			position:absolute;
+		}
+		
+		.Box-AboutUS-Worker{
+			width:500px;
+			height:100px;
+			background-color:;
+			
+			top:0px;
+			left:500px;
+			position:absolute;
+		}
+		
+		#Box-AboutUS_S01{
+			top:380px;
+		}
+		
+		#Box-AboutUS_S02{
+			top:480px;
+		}
+		
+		#Box-AboutUS_S03{
+			top:580px;
+		}
+		
+		#Box-AboutUS_S04{
+			top:680px;
+		}
+		
+		#Box-AboutUS_S05{
+			top:780px;
+		}
+			
+/*Box-mainContent_home-2--------------------------------------------------------*/		
+	.Box-mainContent_home-2{
+		width: 100%;
+		height: 710px;
+		background-color:;
+		
+		top: 1130px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04   //banner下方*/
+	
+	
+/*Box-mainContent_home-3--------------------------------------------------------*/		
+	.Box-mainContent_home-3{
+		width: 100%;
+		height: 710px;
+		background-color: ;
+		
+		top: 1840px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04*/
+	
+	.Box-BG_H3v1_3{
+		width: 100%;
+		height: 100%;
+		
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		
+		background-image:url(../img/HomePage-3/HomePage3-v1_3.jpg);
+		background-repeat: repeat;
+		opacity:0.2;
+	
+	}/*分隔圖A*/
+	
+	.Box-BG_H3v1_4{
+		width: 1000px;
+		height: 728px;
+		
+		margin-left:-500px;
+		
+		top: 100px;
+		left: 50%;
+		position: absolute;
+	
+	}/*分隔圖A*/
+
+/*Box-mainContent_home-4--------------------------------------------------------*/		
+	.Box-mainContent_home-4{
+		width: 100%;
+		height: 494px;
+		overflow:hidden;
+		
+		background-color:;
+		
+		top: 2550px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A04*/
+	
+	.Box-homePage4_00{
+		width:400px;
+		height:100px;
+		background-color:;
+		
+		margin-left:-200px;
+		
+		
+		top:120px;
+		left:42%;
+		position:absolute;
+		
+	}/*AboutUs-title*/
+	
+	.Box-homePage4_01{
+		width:400px;
+		height:300px;
+		background-color:rgb(180,180,180);
+		
+		opacity:0.2;
+		
+		border-radius:20px;
+		
+		margin-left:-245px;
+		
+		top:100px;
+		left:44%;
+		position:absolute;
+		
+	}/*AboutUs-title*/
+	
+/*Box-Banner_home-1--------------------------------------------------------*/		
+	.Box-Banner_home-1{
+		width: 100%;
+		height: 252px;
+		background-color: #000;
+		overflow: hidden;
+		
+		top: 878px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A0X*/
+	
+	.Box-Bnner-font_home_home-1{
+		width: 400px;
+		height: 200px;
+		background-color: #black;
+		
+		top: 878px;
+		left: 50%;
+		position: absolute;
+		
+		z-index: 11;
+	}
+	
+	.Box-Banner-Logo-v1_1{
+		top: 0;
+		left: 0;
+		position: absolute;
+		
+		z-index: 11;
+	}/*未指向*/
+	
+/*Box-Bottom--------------------------------------------------------*/	
+/* E系*/
+	.Box-Bottom{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 3044px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Box-A0N*/
+	
+	.Box-Bottom_Explore{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1680px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-Explore*/
+	
+	.Box-Bottom_News{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1180px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-News*/
+	
+	.Box-Bottom_EthnicGroup{
+		width: 100%;
+		height: 180px;
+		background-color: rgb(117,165,53);
+		
+		top: 1680px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 10;
+		
+	}/*Bottom-EthnicGroup-00-Festival*/
+	
+	.Box-E01{
+		width: 400px;
+		height: 100px;
+		background-color: ;
+		
+		top: 60px;
+		left: 1400px;
+		position: absolute;
+		
+		z-index: 11;
+		
+	}/*出處聲明*/
+	
+	.Box-E02{
+		width: 1000px;
+		height: 100px;
+		background-color: ;
+		
+		top: 70px;
+		left: 150px;
+		position: absolute;
+		
+		z-index: 11;
+		
+	}/*版權聲明-框架*/
+	
+	.Box-E03{
+		width: 41px;
+		height: 38px;
+		background-color: ;
+		
+		top: 20px;
+		left: 0px;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*版權聲明-Logo*/
+
+	.Box-E04{
+		
+		top: 20px;
+		left: 50px;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*版權聲明-內容*/
+	
+	.Box-E05{
+		
+		top: px;
+		left: 100%;
+		position: absolute;
+		
+		z-index: 12;
+		
+	}/*底部快捷*/
+	
+	
+/*News.html--------------------------------*/	
+	
+	/*Home1*/
+	.Box_News-Home1_Style{
+
+		background-color:red;
+		
+		top:0px;
+		left:0px;
+		position:absolute;
+		
+		z-index:12;
+		
+	}
+	
+	
+	
+	
+	
